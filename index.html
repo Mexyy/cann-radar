@@ -194,8 +194,9 @@ const COLORS = {
 };
 const TYPE_LABELS = { developer: '开发者', star_enthusiast: 'Star 爱好者', die_hard_fan: '铁粉' };
 
+const DATA_VER = '?v=4';
 async function loadJSON(path) {
-  const r = await fetch(path);
+  const r = await fetch(path + DATA_VER);
   return r.json();
 }
 
@@ -210,9 +211,15 @@ document.querySelectorAll('.tab').forEach(tab => {
     document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
     tab.classList.add('active');
     document.getElementById('panel-' + tab.dataset.panel).classList.add('active');
-    window.dispatchEvent(new Event('resize'));
+    // 切换到仓库详情时，强制 resize 所有仓库图表
+    setTimeout(() => {
+      [repoTypeChart, repoTimelineChart, repoTypeTimelineChart].forEach(c => c && c.resize());
+      window.dispatchEvent(new Event('resize'));
+    }, 50);
   });
 });
+
+let repoTypeChart, repoTimelineChart, repoTypeTimelineChart;
 
 async function main() {
   const [repos, allUsers, profiles] = await Promise.all([
@@ -365,7 +372,6 @@ async function main() {
   // ════════════════════════════════════════════════════════
   // 仓库详情面板
   // ════════════════════════════════════════════════════════
-  let repoTypeChart, repoTimelineChart, repoTypeTimelineChart;
   let currentFilter = 'all';
   let currentPage   = 1;
   const PAGE_SIZE   = 20;
@@ -493,6 +499,8 @@ async function main() {
   }
 
   function renderUserTable() {
+    console.log('filter:', currentFilter, 'total users:', currentRepoUsers.length,
+      'sample type:', currentRepoUsers[0]?.profile?.user_type);
     const filtered = currentFilter === 'all'
       ? currentRepoUsers
       : currentRepoUsers.filter(u => (u.profile?.user_type || 'die_hard_fan') === currentFilter);
