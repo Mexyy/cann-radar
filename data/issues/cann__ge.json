@@ -15,30 +15,30 @@
   },
   {
     "iid": 286,
-    "state": "opened",
+    "state": "closed",
     "created_at": "2026-03-31",
-    "closed_at": "",
+    "closed_at": "2026-04-01",
     "author": "2502_92224338"
   },
   {
     "iid": 285,
-    "state": "opened",
+    "state": "closed",
     "created_at": "2026-03-31",
-    "closed_at": "",
+    "closed_at": "2026-04-01",
     "author": "JH1223D"
   },
   {
     "iid": 284,
-    "state": "opened",
+    "state": "closed",
     "created_at": "2026-03-31",
-    "closed_at": "",
+    "closed_at": "2026-04-01",
     "author": "JH1223D"
   },
   {
     "iid": 283,
-    "state": "opened",
+    "state": "closed",
     "created_at": "2026-03-31",
-    "closed_at": "",
+    "closed_at": "2026-04-01",
     "author": "kby06099"
   },
   {
@@ -78,9 +78,9 @@
   },
   {
     "iid": 276,
-    "state": "opened",
+    "state": "closed",
     "created_at": "2026-03-30",
-    "closed_at": "",
+    "closed_at": "2026-04-01",
     "author": "2403_87816892"
   },
   {
@@ -344,9 +344,9 @@
   },
   {
     "iid": 235,
-    "state": "opened",
+    "state": "closed",
     "created_at": "2026-03-23",
-    "closed_at": "",
+    "closed_at": "2026-04-01",
     "author": "hugo111"
   },
   {
@@ -932,9 +932,9 @@
   },
   {
     "iid": 149,
-    "state": "opened",
+    "state": "closed",
     "created_at": "2026-02-09",
-    "closed_at": "",
+    "closed_at": "2026-04-01",
     "author": "tmj1128"
   },
   {
