@@ -1,9 +1,9 @@
 [
   {
     "iid": 152,
-    "state": "opened",
+    "state": "closed",
     "created_at": "2026-04-02",
-    "closed_at": "",
+    "closed_at": "2026-04-09",
     "author": "aabbcc_281"
   },
   {
@@ -15,16 +15,16 @@
   },
   {
     "iid": 150,
-    "state": "opened",
+    "state": "closed",
     "created_at": "2026-03-31",
-    "closed_at": "",
+    "closed_at": "2026-04-09",
     "author": "majinglan"
   },
   {
     "iid": 149,
-    "state": "opened",
+    "state": "closed",
     "created_at": "2026-03-30",
-    "closed_at": "",
+    "closed_at": "2026-04-09",
     "author": "jxlang"
   },
   {
