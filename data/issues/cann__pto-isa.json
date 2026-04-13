@@ -1,5 +1,12 @@
 [
   {
+    "iid": 288,
+    "state": "opened",
+    "created_at": "2026-04-13",
+    "closed_at": "",
+    "author": "omarzohir"
+  },
+  {
     "iid": 287,
     "state": "opened",
     "created_at": "2026-04-11",
@@ -78,9 +85,9 @@
   },
   {
     "iid": 276,
-    "state": "opened",
+    "state": "closed",
     "created_at": "2026-04-08",
-    "closed_at": "",
+    "closed_at": "2026-04-13",
     "author": "Azizbek"
   },
   {
@@ -183,9 +190,9 @@
   },
   {
     "iid": 261,
-    "state": "opened",
+    "state": "closed",
     "created_at": "2026-04-02",
-    "closed_at": "",
+    "closed_at": "2026-04-13",
     "author": "fzhar"
   },
   {

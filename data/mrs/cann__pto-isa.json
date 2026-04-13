@@ -1,9 +1,49 @@
 [
   {
-    "iid": 735,
+    "iid": 740,
     "state": "opened",
-    "created_at": "2026-04-12",
+    "created_at": "2026-04-13",
     "merged_at": "",
+    "closed_at": "",
+    "author": "omarzohir"
+  },
+  {
+    "iid": 739,
+    "state": "opened",
+    "created_at": "2026-04-13",
+    "merged_at": "",
+    "closed_at": "",
+    "author": "ivanmang"
+  },
+  {
+    "iid": 738,
+    "state": "closed",
+    "created_at": "2026-04-13",
+    "merged_at": "",
+    "closed_at": "2026-04-13",
+    "author": "ivanmang"
+  },
+  {
+    "iid": 737,
+    "state": "opened",
+    "created_at": "2026-04-13",
+    "merged_at": "",
+    "closed_at": "",
+    "author": "qq_53648788"
+  },
+  {
+    "iid": 736,
+    "state": "merged",
+    "created_at": "2026-04-13",
+    "merged_at": "2026-04-13",
+    "closed_at": "",
+    "author": "jyc304691735"
+  },
+  {
+    "iid": 735,
+    "state": "merged",
+    "created_at": "2026-04-12",
+    "merged_at": "2026-04-13",
     "closed_at": "",
     "author": "ivanmang"
   },
@@ -17,9 +57,9 @@
   },
   {
     "iid": 733,
-    "state": "opened",
+    "state": "merged",
     "created_at": "2026-04-11",
-    "merged_at": "",
+    "merged_at": "2026-04-13",
     "closed_at": "",
     "author": "zoujiangjiang"
   },
@@ -41,10 +81,10 @@
   },
   {
     "iid": 730,
-    "state": "opened",
+    "state": "closed",
     "created_at": "2026-04-10",
     "merged_at": "",
-    "closed_at": "",
+    "closed_at": "2026-04-13",
     "author": "ivanmang"
   },
   {
@@ -337,9 +377,9 @@
   },
   {
     "iid": 693,
-    "state": "opened",
+    "state": "merged",
     "created_at": "2026-04-06",
-    "merged_at": "",
+    "merged_at": "2026-04-13",
     "closed_at": "",
     "author": "Azizbek"
   },
@@ -1113,9 +1153,9 @@
   },
   {
     "iid": 596,
-    "state": "opened",
+    "state": "merged",
     "created_at": "2026-03-25",
-    "merged_at": "",
+    "merged_at": "2026-04-13",
     "closed_at": "",
     "author": "lisa_xhy"
   },
@@ -1968,20 +2008,20 @@
     "author": "nmkihail"
   },
   {
-    "iid": 488,
-    "state": "merged",
-    "created_at": "2026-03-16",
-    "merged_at": "2026-03-16",
-    "closed_at": "",
-    "author": "jyc304691735"
-  },
-  {
     "iid": 489,
     "state": "merged",
     "created_at": "2026-03-16",
     "merged_at": "2026-03-16",
     "closed_at": "",
     "author": "omarzohir"
+  },
+  {
+    "iid": 488,
+    "state": "merged",
+    "created_at": "2026-03-16",
+    "merged_at": "2026-03-16",
+    "closed_at": "",
+    "author": "jyc304691735"
   },
   {
     "iid": 487,
