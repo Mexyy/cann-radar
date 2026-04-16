@@ -18,7 +18,7 @@
       ]
     },
     {
-      "path": "CANN/graph-autofusion",
+      "path": "cann/graph-autofusion",
       "display_name": "AutoFusion",
       "enabled": true,
       "goals": [
