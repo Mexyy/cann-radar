@@ -3,25 +3,32 @@
     {
       "name": "torchair",
       "path": "Ascend/torchair",
-      "merged": 2072,
-      "open": 243,
-      "total": 2315
+      "merged": 2077,
+      "open": 239,
+      "total": 2316
     },
     {
       "name": "ge",
       "path": "cann/ge",
-      "merged": 1099,
-      "open": 208,
-      "total": 1307
+      "merged": 1124,
+      "open": 189,
+      "total": 1313
     },
     {
       "name": "hixl",
       "path": "cann/hixl",
-      "merged": 315,
-      "open": 25,
-      "total": 340
+      "merged": 316,
+      "open": 28,
+      "total": 344
+    },
+    {
+      "name": "graph-autofusion",
+      "path": "cann/graph-autofusion",
+      "merged": 200,
+      "open": 23,
+      "total": 223
     }
   ],
-  "unique_authors": 549,
+  "unique_authors": 561,
   "generated_at": "2026-04-16"
 }

@@ -1,5 +1,25 @@
 [
   {
+    "user_name": "whitelee3",
+    "nick_name": "whitelee3",
+    "user_id": 7246551,
+    "avatar": null,
+    "starred_repos": [
+      "cann/ge"
+    ]
+  },
+  {
+    "user_name": "luanchaowei",
+    "nick_name": "luanchaowei",
+    "user_id": 7144416,
+    "avatar": null,
+    "starred_repos": [
+      "cann/ge",
+      "cann/hixl",
+      "Ascend/torchair"
+    ]
+  },
+  {
     "user_name": "gcw_QAn8CO53",
     "nick_name": "gcw_QAn8CO53",
     "user_id": 10865541,
@@ -16,6 +36,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -208,7 +229,8 @@
     "user_id": 3589669,
     "avatar": "https://cdn-img.gitcode.com/ad/ce/a15dc6e197189b3ca2c520615e1c2f2feef96c9ec820b72df5453f83686e71e2.jpg",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -299,7 +321,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -364,7 +387,8 @@
     "user_id": 323715,
     "avatar": "https://cdn-img.gitcode.com/ea/de/e4198034106421816061a52d9e197219bcc16c234f572e88fb6c52d5838c1d93.png",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -373,7 +397,8 @@
     "user_id": 2107807,
     "avatar": "https://cdn-img.gitcode.com/fb/ce/4f8b9c76e289375e1a3c6d6d555b7101d10b28aca6d2b63b59d57ebc0eee7bea.png",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -391,7 +416,8 @@
     "user_id": 4180613,
     "avatar": "https://cdn-img.gitcode.com/ff/cf/091ff9cfcda134482b730696a0277c4e1c09922f1edb0400136ee368b8c8cabb.jpg",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -483,7 +509,8 @@
     "user_id": 10636073,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -492,7 +519,8 @@
     "user_id": 5580950,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -501,7 +529,8 @@
     "user_id": 3166530,
     "avatar": "https://cdn-img.gitcode.com/ec/fa/256e36cfa0c67738113cb947b3c2e3cc415e3d83246feeb578bc8196d153813a.jpg",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -510,7 +539,8 @@
     "user_id": 6532537,
     "avatar": "https://cdn-img.gitcode.com/ee/eb/771449e7627e557e6160b16b27648dd711caac9180f0868bd4fd674dfbc02bd8.jpg",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -519,7 +549,8 @@
     "user_id": 7212392,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -528,7 +559,8 @@
     "user_id": 3080293,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -537,7 +569,8 @@
     "user_id": 6125235,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -546,7 +579,8 @@
     "user_id": 2668964,
     "avatar": "https://cdn-img.gitcode.com/af/cd/a8f2510c100760d0554fcf039065c27e222ef1ca8d23ecdf5e4d75929e49e65a.jpg",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -555,7 +589,8 @@
     "user_id": 10635245,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -574,6 +609,7 @@
     "avatar": "https://cdn-img.gitcode.com/cd/bd/2c0445133d38b9d8f315773041a47f552445630f2f6b938bb4aa27ebf572dbf8.png?time=1765246664159",
     "starred_repos": [
       "cann/ge",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -583,7 +619,8 @@
     "user_id": 7676613,
     "avatar": "",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -602,7 +639,8 @@
     "avatar": "https://cdn-img.gitcode.com/ad/dd/a7d0dd7d665716676560672cd4975d6ee6fa5add05c25b2cf0944b97521d4152.png?time=1763984530770",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -620,7 +658,8 @@
     "user_id": 7030167,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -629,7 +668,8 @@
     "user_id": 5830991,
     "avatar": "https://cdn-img.gitcode.com/cb/cb/982315c08bcbf2cef3092d22c1eb1b9fc254a0cbe417cdf3ce423b8ea7b41686.png",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -638,7 +678,8 @@
     "user_id": 9937422,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -647,7 +688,8 @@
     "user_id": 6506572,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -656,7 +698,8 @@
     "user_id": 6388830,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -665,7 +708,8 @@
     "user_id": 7558004,
     "avatar": "",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -674,7 +718,8 @@
     "user_id": 5578317,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -683,7 +728,8 @@
     "user_id": 10600381,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -692,7 +738,8 @@
     "user_id": 1016337,
     "avatar": "https://cdn-img.gitcode.com/ff/fd/75f56f329f3d1d573071f5c0d44adcd5d2380a45be8f0472ef11651655103129.jpg",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -729,7 +776,8 @@
     "user_id": 5578709,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -738,7 +786,8 @@
     "user_id": 7026339,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -748,7 +797,8 @@
     "avatar": "https://cdn-img.gitcode.com/eb/fb/262ebf66bd4cf7a7fa9a1e0e68c33999bf233a66e09188501212bbea7aee4ed4.png?time=1766732815875",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -757,7 +807,8 @@
     "user_id": 7232868,
     "avatar": "https://cdn-img.gitcode.com/bb/bc/b75361097b87b719c6a98b156063b87adff8a7b609f9a605a4b32d4f3e090493.png",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -766,7 +817,8 @@
     "user_id": 4978680,
     "avatar": "https://cdn-img.gitcode.com/ff/bf/8f675741f8bf39a5cae16306781a3a3423c0ae8b735550705c16440aa35d52fb.png",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -775,7 +827,8 @@
     "user_id": 1433698,
     "avatar": "https://cdn-img.gitcode.com/ae/cd/966113a439e6008c21668d46d8baa3f20187b463eba3c6516ea62d3bad296236.png",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -784,7 +837,8 @@
     "user_id": 9756061,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -794,6 +848,7 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -803,7 +858,8 @@
     "user_id": 5578341,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -812,7 +868,8 @@
     "user_id": 5578058,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -823,6 +880,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -832,7 +890,8 @@
     "user_id": 958709,
     "avatar": "https://cdn-img.gitcode.com/db/ca/985d2b5c4a8bf3ef92cb96aa755e55164ad9f8d1384119ce6f6a4ebec8e84e18.jpg",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -841,7 +900,8 @@
     "user_id": 6567959,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -850,7 +910,8 @@
     "user_id": 2561140,
     "avatar": "https://cdn-img.gitcode.com/be/eb/be094e897b91ec766c531497e238e7c1b9d611c25edfae3fdf7c4fec2b947ed4.jpg",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -859,7 +920,8 @@
     "user_id": 10513911,
     "avatar": "https://cdn-img.gitcode.com/ef/bf/39082e90633341f1b72f124396cea6f722b7465acf8161659839a5633cf23cb2.jpg",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -868,7 +930,8 @@
     "user_id": 5900876,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -877,7 +940,8 @@
     "user_id": 6574546,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -914,6 +978,7 @@
     "avatar": "https://cdn-img.gitcode.com/cf/db/c6fd2bcfd9c16bdc477a06fb758433f8e0cf22f057c752a77397c201becd31d8.png",
     "starred_repos": [
       "cann/ge",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -924,6 +989,7 @@
     "avatar": "https://cdn-img.gitcode.com/ab/ae/5a64b930ae847a40e8781b23522f216876a9aa003adc52f7341351b52dbf9ffd.jpg",
     "starred_repos": [
       "cann/ge",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -933,7 +999,8 @@
     "user_id": 9294537,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -943,6 +1010,7 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -953,6 +1021,7 @@
     "avatar": "https://cdn-img.gitcode.com/df/af/df5af39f534137fe9e444cb6589c97bc95f009d3991132ff502e65585a3ea8ba.png",
     "starred_repos": [
       "cann/ge",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -962,7 +1031,8 @@
     "user_id": 7246266,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1001,6 +1071,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -1012,6 +1083,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -1051,6 +1123,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -1089,7 +1162,8 @@
     "user_id": 6567865,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1098,7 +1172,8 @@
     "user_id": 1449654,
     "avatar": "https://cdn-img.gitcode.com/da/bd/93dab18081da6a5b65df6df1d1a449b9a6db04af6b9c73649bd137964b7debd1.png",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1107,7 +1182,8 @@
     "user_id": 6308180,
     "avatar": "",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1164,7 +1240,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1320,6 +1397,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -1340,6 +1418,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -1430,7 +1509,8 @@
     "user_id": 6568013,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1511,7 +1591,8 @@
     "user_id": 7312839,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1584,7 +1665,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1668,6 +1750,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -1679,6 +1762,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -1698,7 +1782,8 @@
     "avatar": "https://cdn-img.gitcode.com/fd/eb/f793de549b9442a422484306231107ac050ad599b995797c24708979efa08e89.png",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1709,6 +1794,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -1719,7 +1805,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1729,7 +1816,8 @@
     "avatar": "https://cdn-img.gitcode.com/ee/fe/2e3e1fe9203c52854574c57d2729519181a3d188a8d71edf576d6d324fc24704.png",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1739,7 +1827,8 @@
     "avatar": "https://cdn-img.gitcode.com/cd/dc/c3ddc7399d164192a38a7f57fa3852fc5a0a7b61a6d5225d77a445365e7efff5.jpg",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1749,7 +1838,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1760,6 +1850,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -1770,7 +1861,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1780,7 +1872,8 @@
     "avatar": "https://cdn-img.gitcode.com/db/ed/db0edb330d799a11fd7179bf1ab633df15b7484434c3a2ca751358a002b86b1e.png",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1791,6 +1884,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -1801,7 +1895,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1811,7 +1906,8 @@
     "avatar": "https://cdn-img.gitcode.com/cc/ae/c3cae175e1f52849ba7342571e36814728a4403aadcc004d04253b9210d59f44.png",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1822,6 +1918,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -1832,7 +1929,8 @@
     "avatar": "https://cdn-img.gitcode.com/cd/cb/53cd06835c40bc246865b65cea5e65357f2c0a6ac38481094df8cf7e07cdf560.png",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1842,7 +1940,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1853,6 +1952,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -1863,7 +1963,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1873,7 +1974,8 @@
     "avatar": "https://cdn-img.gitcode.com/eb/fb/5324379033311e707bf06b1725470b3a0707b71bcb3c69dcc2a6687424ea5bcd.png?time=1772026638174",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1883,7 +1985,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1893,7 +1996,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1903,7 +2007,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1914,6 +2019,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -1924,7 +2030,8 @@
     "avatar": "https://cdn-img.gitcode.com/ac/cf/4a7cc0fc55425ead9ef22cebd96f4eb7bafc3bee47248aa76ef16307da28c7a6.png",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1934,7 +2041,8 @@
     "avatar": "https://cdn-img.gitcode.com/dd/dc/d9d7dce1790eb915570f852f12f86145fb6ec9867d90535b7e6c1f3021086775.png",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1945,6 +2053,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -1956,6 +2065,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -1966,7 +2076,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1976,7 +2087,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1986,7 +2098,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -1997,6 +2110,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2008,6 +2122,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2019,6 +2134,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2028,7 +2144,8 @@
     "user_id": 6494117,
     "avatar": "https://cdn-img.gitcode.com/ec/cd/1eccd12776a89c4a312f22b86109748414ddb315b5936f8658344c02837c50f8.jpg",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2038,7 +2155,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2058,6 +2176,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2068,7 +2187,8 @@
     "avatar": "https://cdn-img.gitcode.com/ee/fc/6732718449155e065e1fcff7f58cd66509d2be5bc5424443b0b274646abf28cd.png?time=1751433709456",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2079,6 +2199,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2090,6 +2211,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2101,6 +2223,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2120,7 +2243,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2140,7 +2264,8 @@
     "avatar": "",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2150,7 +2275,8 @@
     "avatar": "https://cdn-img.gitcode.com/ec/ef/7e58c44222955efdea3df3f7bf79be6e7914b2dc1d0a94a0b3dc0218ab86e180.png?time=1765617512014",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2161,6 +2287,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2182,7 +2309,8 @@
     "avatar": "",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2192,7 +2320,8 @@
     "avatar": "https://cdn-img.gitcode.com/cb/cc/7c40b43c8cb2988fa7d20e24a9e1186607b50d59942af89cbb68884c6d9ff48e.png",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2202,7 +2331,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2212,7 +2342,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2222,7 +2353,8 @@
     "avatar": "https://cdn-img.gitcode.com/bc/cf/bc1529c7facc4ef83c17c6f152028216a54f2e27a9d989596bd865896ab4bebc.jpg",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2231,7 +2363,8 @@
     "user_id": 6397667,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2241,7 +2374,8 @@
     "avatar": "https://cdn-img.gitcode.com/bc/bf/098bcb3253fc1a866f9efaee9cc0fb56bf229585ec8ce70c7f16c36a1123d93a.jpg",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2252,6 +2386,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2262,7 +2397,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2273,6 +2409,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2283,7 +2420,8 @@
     "avatar": "https://cdn-img.gitcode.com/bd/da/54bdda8f9b606bc419329578d5f8a50ecf6c87234eafb9be8a09b682d3e0911b.jpg",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2293,7 +2431,8 @@
     "avatar": "",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2303,7 +2442,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2313,7 +2453,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2323,7 +2464,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2333,7 +2475,8 @@
     "avatar": "",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2343,7 +2486,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2353,7 +2497,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2363,7 +2508,8 @@
     "avatar": "https://cdn-img.gitcode.com/da/bf/169d0abff4be5698fe1e63f8101eff29de6d6be1d36a6f9fd7b24d6ebae0f5d1.png",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2373,7 +2519,8 @@
     "avatar": "https://cdn-img.gitcode.com/da/af/d400a813650afd4b66ba7c410c11f7adabb78ace270d3f52c5afb02356e76bd0.png?time=1764400230737",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2383,7 +2530,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2393,7 +2541,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2403,7 +2552,8 @@
     "avatar": "https://cdn-img.gitcode.com/eb/fd/e38b755f6debf7b356e1ec7fb2b2a5a4c2d6911ef69cc9a66e58758aa213ad32.png?time=1756970405406",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2413,7 +2563,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2423,7 +2574,8 @@
     "avatar": "",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2433,7 +2585,8 @@
     "avatar": "",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2443,7 +2596,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2454,6 +2608,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2464,7 +2619,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2474,7 +2630,8 @@
     "avatar": "https://cdn-img.gitcode.com/db/de/71323d25b8074348de7b045b89f2bf9e4225508b00d31296206f78a98ad5bcb9.png",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2484,7 +2641,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2495,6 +2653,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2506,6 +2665,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2517,6 +2677,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2528,6 +2689,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2539,6 +2701,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2550,6 +2713,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2561,6 +2725,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2571,7 +2736,8 @@
     "avatar": "",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2581,7 +2747,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2591,7 +2758,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2611,7 +2779,8 @@
     "avatar": "https://cdn-img.gitcode.com/cd/ec/05c8d90e150c69b8b3d3f1444a23c3431de8445ec403d7219c6a654527b5849b.jpg",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2622,6 +2791,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2632,7 +2802,8 @@
     "avatar": "https://cdn-img.gitcode.com/fb/dd/4f6959582bd3d014648cd39dda5934abded5a1146f8eaf5fd835add6898cd2b8.png?time=1765511478688",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2650,7 +2821,8 @@
     "user_id": 6327555,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2659,7 +2831,8 @@
     "user_id": 7817295,
     "avatar": null,
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2669,7 +2842,8 @@
     "avatar": "https://cdn-img.gitcode.com/bf/ad/b7f29486a040d7b2f52bf6c78414692d7d585eb1ec628cea3eb01c9d63f68618.png?time=1755691472703",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2679,7 +2853,8 @@
     "avatar": "https://cdn-img.gitcode.com/ce/ab/3c2431623e49ab774270f4a9e5668047713e2ede8504573c56527e3aee800132.png",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2688,7 +2863,8 @@
     "user_id": 6010430,
     "avatar": "https://cdn-img.gitcode.com/cf/bf/9558cf3b5330f6f5253bf76fbff1cdadaad3274f5377042db1c4d58c0c57ee9a.png?time=1757130183294",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2698,7 +2874,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2708,7 +2885,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2718,7 +2896,8 @@
     "avatar": "https://cdn-img.gitcode.com/ac/bf/a09803c8586b44fc0072555e95be023b6c5b1ff9950af22b900b93d6108a6990.png",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2728,7 +2907,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2738,7 +2918,8 @@
     "avatar": "https://cdn-img.gitcode.com/bb/cf/5b51b13431c0f07eefbd163fe2d05f4c84af696c5063221f5d5847c446d6c889.png",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2749,6 +2930,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2760,6 +2942,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2770,7 +2953,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2780,7 +2964,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2790,7 +2975,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2800,7 +2986,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2810,7 +2997,8 @@
     "avatar": "https://cdn-img.gitcode.com/ce/bb/6c416e14b97502bb8ffd9bdb4660c6e1ef60315b0c452d083b153a741aac7ac4.png?time=1774252869582",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2821,6 +3009,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2831,7 +3020,8 @@
     "avatar": "https://cdn-img.gitcode.com/db/ec/6946d5271b2e2c305ecda566b281ffe96f9dcea35f7883c55860e2041bb6b5c6.jpg",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2841,7 +3031,8 @@
     "avatar": "https://cdn-img.gitcode.com/be/cc/455b2964ec5553c5986c029e0f62a86384a041c8d570c2403cfe201f2f51c644.jpg",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2851,7 +3042,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2861,7 +3053,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2871,7 +3064,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2882,6 +3076,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2891,7 +3086,8 @@
     "user_id": 7049310,
     "avatar": "",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2901,7 +3097,8 @@
     "avatar": "https://cdn-img.gitcode.com/bb/ee/79b3be3e4cf36756973d59d4246ff4665c0b33ad60c1a2ee94e1de6f0989bfe8.png?time=1762419807557",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2911,7 +3108,8 @@
     "avatar": "",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2921,7 +3119,8 @@
     "avatar": "https://cdn-img.gitcode.com/cb/bd/716c9bb7949d1b0cf10a8e045b1ef16f3935cbd41b66af1e375ba3aad8ae1514.png",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2931,7 +3130,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2942,6 +3142,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -2952,7 +3153,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2962,7 +3164,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2972,7 +3175,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2982,7 +3186,8 @@
     "avatar": "https://cdn-img.gitcode.com/ce/eb/c8564985335ee7baf4a06de7e683ad57bbdd1c4dd1b26baadaed0cd0ac9560d3.jpg",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -2992,7 +3197,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3002,7 +3208,8 @@
     "avatar": "https://cdn-img.gitcode.com/ef/aa/048795e755319faaa57d9fc77234d5a08e1b8f0bc219e2ec0b5018764aa6e0e2.jpg",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3023,6 +3230,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3034,6 +3242,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3044,7 +3253,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3054,7 +3264,8 @@
     "avatar": "https://cdn-img.gitcode.com/cf/db/67cfd49b7a6f1ac0b118fc261da31dac56373ffe6b34d25f46a32eaea82054b6.jpg",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3065,6 +3276,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3075,7 +3287,8 @@
     "avatar": "https://cdn-img.gitcode.com/ce/dd/10c68107ed5338920de8870b8dabee4a7285af1036dda4d1722f74993f9c02e5.jpg",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3086,6 +3299,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3096,7 +3310,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3107,6 +3322,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3117,7 +3333,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3128,6 +3345,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3139,6 +3357,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3149,7 +3368,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3160,6 +3380,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3170,7 +3391,8 @@
     "avatar": "https://cdn-img.gitcode.com/fe/de/6687520fe72de48d3feb94509a6b3d6ffdb5c287faf3d18f15c86e5137a389b2.jpg",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3181,6 +3403,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3191,7 +3414,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3201,7 +3425,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3211,7 +3436,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3221,7 +3447,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3232,6 +3459,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3243,6 +3471,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3274,6 +3503,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3285,6 +3515,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3295,7 +3526,8 @@
     "avatar": "",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3306,6 +3538,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3317,6 +3550,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3328,6 +3562,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3338,7 +3573,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3349,6 +3585,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3360,6 +3597,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3371,6 +3609,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3382,6 +3621,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3392,7 +3632,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3402,7 +3643,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3412,7 +3654,8 @@
     "avatar": "https://cdn-img.gitcode.com/ee/cd/14ee56cd972cfa04a9956e83ddce59ebb66f14080e182a517a23369d462cf5fb.jpg",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3423,6 +3666,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3434,6 +3678,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3445,6 +3690,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3456,6 +3702,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3467,6 +3714,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3478,6 +3726,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3489,6 +3738,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3500,6 +3750,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3511,6 +3762,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3522,6 +3774,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3533,6 +3786,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3544,6 +3798,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3572,7 +3827,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3583,6 +3839,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3593,7 +3850,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3603,7 +3861,8 @@
     "avatar": "",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3642,7 +3901,8 @@
     "avatar": "",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3652,6 +3912,7 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3671,7 +3932,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3682,6 +3944,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3693,6 +3956,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3722,6 +3986,7 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3751,6 +4016,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3771,6 +4037,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3791,6 +4058,7 @@
     "avatar": "https://cdn-img.gitcode.com/bb/aa/b3781b2a5a9c7e44dd11bdbbe84d3d63e1819a04f0b880ea0cea993f8cf1d69c.png",
     "starred_repos": [
       "cann/ge",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3801,6 +4069,7 @@
     "avatar": "https://cdn-img.gitcode.com/ac/cb/5a680c42cb28dc8c8ec9db1d356437d3ee4c4c0b825540439eeb297b8860417d.jpg",
     "starred_repos": [
       "cann/ge",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3811,7 +4080,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3822,6 +4092,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3850,6 +4121,7 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3870,6 +4142,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3881,6 +4154,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3892,6 +4166,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3911,7 +4186,8 @@
     "avatar": "https://cdn-img.gitcode.com/ca/ed/02c103a7e444dd9895bf47af2dc6de6c739d30e99aaa23aecf3b3c0feb0caa36.png?time=1763438687694",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -3921,6 +4197,7 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3941,6 +4218,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3974,6 +4252,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -3995,6 +4274,7 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4015,6 +4295,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4025,7 +4306,8 @@
     "avatar": "https://cdn-img.gitcode.com/ec/db/ec775db76557a752ea1731cb3e56ad70620af5b0f00a271268de39bc6ec4006f.png?time=1758194829715",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -4045,7 +4327,8 @@
     "avatar": "https://cdn-img.gitcode.com/dc/aa/d46701c8aa5e2f4e1923967df52e80325fa7c7c114e6d6ea0836c90e5ebd5b65.png",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -4066,6 +4349,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4076,7 +4360,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -4086,7 +4371,8 @@
     "avatar": "https://cdn-img.gitcode.com/ce/ad/5042c3147e8a29609d75607e350fd3a655ad758f0d0574cc158ae877044d26d2.png?time=1759142609574",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -4097,6 +4383,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4119,6 +4406,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4130,6 +4418,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4141,6 +4430,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4152,6 +4442,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4163,6 +4454,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4174,6 +4466,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4185,6 +4478,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4196,6 +4490,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4207,6 +4502,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4218,6 +4514,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4229,6 +4526,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4251,6 +4549,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4262,6 +4561,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4273,6 +4573,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4284,6 +4585,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4295,6 +4597,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4306,6 +4609,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4324,7 +4628,8 @@
     "user_id": 1245959,
     "avatar": "https://cdn-img.gitcode.com/ba/ce/3ba80c708e65a747933f3c377dc1ea3650339623412832a39e69353887990b3f.png?time=1773987755649",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -4335,6 +4640,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4345,7 +4651,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -4354,7 +4661,8 @@
     "user_id": 7738480,
     "avatar": "",
     "starred_repos": [
-      "cann/ge"
+      "cann/ge",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -4385,6 +4693,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4404,7 +4713,8 @@
     "avatar": "https://cdn-img.gitcode.com/ac/ef/6142a7ce78fdedd060c13c133fc8423f25386dca70f5cfbfcff2bc74f8b29e81.png",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -4423,7 +4733,8 @@
     "avatar": null,
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -4434,6 +4745,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4445,6 +4757,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4456,6 +4769,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4467,6 +4781,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4478,6 +4793,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4498,6 +4814,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4509,6 +4826,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4520,6 +4838,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4531,6 +4850,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4542,6 +4862,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4553,6 +4874,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4564,6 +4886,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4575,6 +4898,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4586,6 +4910,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4597,6 +4922,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4608,6 +4934,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4619,6 +4946,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4630,6 +4958,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -4641,6 +4970,7 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -5760,7 +6090,8 @@
     "user_id": 2903127,
     "avatar": "https://cdn-img.gitcode.com/ae/ad/93a70e4adf26dd100aa6bddeb50baf9a1b83fe640ebee2c42fa87a1a92750a2d.jpg",
     "starred_repos": [
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -5769,7 +6100,8 @@
     "user_id": 323301,
     "avatar": "https://cdn-img.gitcode.com/df/bd/7d6f290b01d277bb14a3735c73873e9cf3d023a02b7e056948bc89dc13b86648.png?time=1762431761341",
     "starred_repos": [
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -5814,7 +6146,8 @@
     "user_id": 7461114,
     "avatar": "",
     "starred_repos": [
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -5850,7 +6183,8 @@
     "user_id": 1754725,
     "avatar": "https://cdn-img.gitcode.com/bc/cc/3bcc1c3bc0338a743e3eb91e2c4da13b6aa3514d71f5a3d7f102330f5e95841d.jpg",
     "starred_repos": [
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -5859,7 +6193,8 @@
     "user_id": 660480,
     "avatar": "https://cdn-img.gitcode.com/cf/fc/3c492802112324f6f230cdfe5bcf146f8f33daa3decb641d5959356644a01436.png",
     "starred_repos": [
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -5868,7 +6203,8 @@
     "user_id": 6965319,
     "avatar": "",
     "starred_repos": [
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -5886,7 +6222,8 @@
     "user_id": 4648900,
     "avatar": "https://cdn-img.gitcode.com/ed/be/edb9ece923c99efd57e4b8774b0ac846bed774116a6f553b07fb0a2b59c4acb9.png",
     "starred_repos": [
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -5895,7 +6232,8 @@
     "user_id": 7063580,
     "avatar": "",
     "starred_repos": [
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -5978,7 +6316,8 @@
     "user_id": 5396399,
     "avatar": "https://cdn-img.gitcode.com/aa/cf/aac3f68c45427c79ed02edbc578a1302edd7ecc1a1d9d0cfafd09c5678960d8b.png",
     "starred_repos": [
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -6061,7 +6400,8 @@
     "user_id": 7693076,
     "avatar": null,
     "starred_repos": [
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -6106,7 +6446,8 @@
     "user_id": 6973783,
     "avatar": null,
     "starred_repos": [
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -6280,7 +6621,8 @@
     "user_id": 7815089,
     "avatar": null,
     "starred_repos": [
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -6347,6 +6689,7 @@
     "avatar": "https://cdn-img.gitcode.com/cb/fe/0cb8fe889abeae52bd22b0da1ff938ba10227a00644ccd88a966ada339836f37.jpg",
     "starred_repos": [
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -6374,7 +6717,8 @@
     "user_id": 6420249,
     "avatar": null,
     "starred_repos": [
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -6547,7 +6891,8 @@
     "user_id": 7212348,
     "avatar": "https://cdn-img.gitcode.com/ac/cd/058a39c802c6d133896bd9a7497ea61596b5b913ff7e4e93a8ddb7d99621b088.png?time=1773990414262",
     "starred_repos": [
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -6731,6 +7076,7 @@
     "avatar": "https://cdn-img.gitcode.com/de/ff/43de7ff31056ef7ed74f934f3b82d6e6ac0fc978cd4a284a5c299e92e2afe372.png",
     "starred_repos": [
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -6830,7 +7176,8 @@
     "user_id": 5578774,
     "avatar": null,
     "starred_repos": [
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion"
     ]
   },
   {
@@ -6877,6 +7224,7 @@
     "avatar": null,
     "starred_repos": [
       "cann/hixl",
+      "cann/graph-autofusion",
       "Ascend/torchair"
     ]
   },
@@ -6923,6 +7271,201 @@
     "avatar": null,
     "starred_repos": [
       "cann/hixl"
+    ]
+  },
+  {
+    "user_name": "qq_34581217",
+    "nick_name": "zhanfeiran",
+    "user_id": 1204599,
+    "avatar": "https://cdn-img.gitcode.com/be/ab/b36eaba8733a594b6897721efccb77cf7a22ef225e0ffeb6d6a645120fb8de4d.png",
+    "starred_repos": [
+      "cann/graph-autofusion"
+    ]
+  },
+  {
+    "user_name": "Geminiver",
+    "nick_name": "jianwei10",
+    "user_id": 4407821,
+    "avatar": "https://cdn-img.gitcode.com/be/aa/bea15a81ef733e54ca5c81fa18572a2a87b20619fcfc3d44cb2af7e0e4ea3a92.jpeg?time=1772606275026",
+    "starred_repos": [
+      "cann/graph-autofusion"
+    ]
+  },
+  {
+    "user_name": "ChenZhoujie",
+    "nick_name": "ChenZhoujie",
+    "user_id": 6327297,
+    "avatar": null,
+    "starred_repos": [
+      "cann/graph-autofusion"
+    ]
+  },
+  {
+    "user_name": "qinchuanyu",
+    "nick_name": "qinchuanyu",
+    "user_id": 6862901,
+    "avatar": null,
+    "starred_repos": [
+      "cann/graph-autofusion",
+      "Ascend/torchair"
+    ]
+  },
+  {
+    "user_name": "gcw_DLQRlQkP",
+    "nick_name": "lud0122",
+    "user_id": 6856942,
+    "avatar": "",
+    "starred_repos": [
+      "cann/graph-autofusion"
+    ]
+  },
+  {
+    "user_name": "cellyshield",
+    "nick_name": "cellyshield",
+    "user_id": 7638148,
+    "avatar": null,
+    "starred_repos": [
+      "cann/graph-autofusion"
+    ]
+  },
+  {
+    "user_name": "saulcy",
+    "nick_name": "TheoCui",
+    "user_id": 44,
+    "avatar": "https://atomcode-air.obs.cn-north-4.myhuaweicloud.com/avatar/1_b9d41ce1-bf49-46a6-8cad-204264bc3154.png",
+    "starred_repos": [
+      "cann/graph-autofusion",
+      "Ascend/torchair"
+    ]
+  },
+  {
+    "user_name": "jordanyan",
+    "nick_name": "jordanyan",
+    "user_id": 7590427,
+    "avatar": null,
+    "starred_repos": [
+      "cann/graph-autofusion",
+      "Ascend/torchair"
+    ]
+  },
+  {
+    "user_name": "jgong5",
+    "nick_name": "jgong5",
+    "user_id": 5301510,
+    "avatar": "https://cdn-img.gitcode.com/ce/da/994ce6daf470c620d851c7b2b69c584a7b2ab8e0ddfc2cfb44e5d390edd9577f.jpg",
+    "starred_repos": [
+      "cann/graph-autofusion"
+    ]
+  },
+  {
+    "user_name": "linjianshu",
+    "nick_name": "linjianshu",
+    "user_id": 6446492,
+    "avatar": null,
+    "starred_repos": [
+      "cann/graph-autofusion"
+    ]
+  },
+  {
+    "user_name": "LMX-xin",
+    "nick_name": "limenxin",
+    "user_id": 6758516,
+    "avatar": null,
+    "starred_repos": [
+      "cann/graph-autofusion"
+    ]
+  },
+  {
+    "user_name": "mario970",
+    "nick_name": "mario970",
+    "user_id": 7216568,
+    "avatar": null,
+    "starred_repos": [
+      "cann/graph-autofusion",
+      "Ascend/torchair"
+    ]
+  },
+  {
+    "user_name": "hujiawen_kaven",
+    "nick_name": "hujiawen_kaven",
+    "user_id": 6357493,
+    "avatar": null,
+    "starred_repos": [
+      "cann/graph-autofusion",
+      "Ascend/torchair"
+    ]
+  },
+  {
+    "user_name": "zjun0",
+    "nick_name": "zjun",
+    "user_id": 3878616,
+    "avatar": "https://cdn-img.gitcode.com/fc/fd/f709cfdf26f707cd589e916c6ee048ea3e1c6db9816638600cc86043819fd9cd.png",
+    "starred_repos": [
+      "cann/graph-autofusion"
+    ]
+  },
+  {
+    "user_name": "wuxi0328",
+    "nick_name": "wuxi0328",
+    "user_id": 5580406,
+    "avatar": null,
+    "starred_repos": [
+      "cann/graph-autofusion"
+    ]
+  },
+  {
+    "user_name": "xuhong26",
+    "nick_name": "xuhong26",
+    "user_id": 7773327,
+    "avatar": null,
+    "starred_repos": [
+      "cann/graph-autofusion"
+    ]
+  },
+  {
+    "user_name": "hitwdy",
+    "nick_name": "1Fire4",
+    "user_id": 94133,
+    "avatar": "https://cdn-img.gitcode.com/fc/ac/5fca62c47b7c8d6e8e9803f5ebf4f33edfb8fb22d4135100e64e0511e2e7c1a8.png",
+    "starred_repos": [
+      "cann/graph-autofusion",
+      "Ascend/torchair"
+    ]
+  },
+  {
+    "user_name": "gc_NFEbxshd",
+    "nick_name": "Belief",
+    "user_id": 7643528,
+    "avatar": null,
+    "starred_repos": [
+      "cann/graph-autofusion"
+    ]
+  },
+  {
+    "user_name": "huangmengwei",
+    "nick_name": "huangmengwei",
+    "user_id": 6859304,
+    "avatar": null,
+    "starred_repos": [
+      "cann/graph-autofusion"
+    ]
+  },
+  {
+    "user_name": "zhanglong99",
+    "nick_name": "zhanglong99",
+    "user_id": 5050974,
+    "avatar": "https://cdn-img.gitcode.com/da/cc/5d0a0c9c1fca5243d1ba0dc98041d00c95be5c1d74769ff86ec6f62ffd050cce.png",
+    "starred_repos": [
+      "cann/graph-autofusion"
+    ]
+  },
+  {
+    "user_name": "zhoulong50_hw",
+    "nick_name": "zhoulong50",
+    "user_id": 7067956,
+    "avatar": null,
+    "starred_repos": [
+      "Ascend/torchair"
     ]
   },
   {
@@ -7817,15 +8360,6 @@
     ]
   },
   {
-    "user_name": "qinchuanyu",
-    "nick_name": "qinchuanyu",
-    "user_id": 6862901,
-    "avatar": null,
-    "starred_repos": [
-      "Ascend/torchair"
-    ]
-  },
-  {
     "user_name": "kkasds",
     "nick_name": "kkasds",
     "user_id": 10072013,
@@ -7893,15 +8427,6 @@
     "nick_name": "sanhu3",
     "user_id": 10172752,
     "avatar": "",
-    "starred_repos": [
-      "Ascend/torchair"
-    ]
-  },
-  {
-    "user_name": "hujiawen_kaven",
-    "nick_name": "hujiawen_kaven",
-    "user_id": 6357493,
-    "avatar": null,
     "starred_repos": [
       "Ascend/torchair"
     ]
@@ -9680,15 +10205,6 @@
     ]
   },
   {
-    "user_name": "mario970",
-    "nick_name": "mario970",
-    "user_id": 7216568,
-    "avatar": null,
-    "starred_repos": [
-      "Ascend/torchair"
-    ]
-  },
-  {
     "user_name": "hexinhui",
     "nick_name": "hexinhui",
     "user_id": 7208096,
@@ -10062,15 +10578,6 @@
     "nick_name": "gcw_m5OQChA4",
     "user_id": 7941864,
     "avatar": "",
-    "starred_repos": [
-      "Ascend/torchair"
-    ]
-  },
-  {
-    "user_name": "luanchaowei",
-    "nick_name": "luanchaowei",
-    "user_id": 7144416,
-    "avatar": null,
     "starred_repos": [
       "Ascend/torchair"
     ]
@@ -10499,15 +11006,6 @@
     ]
   },
   {
-    "user_name": "saulcy",
-    "nick_name": "TheoCui",
-    "user_id": 44,
-    "avatar": "https://atomcode-air.obs.cn-north-4.myhuaweicloud.com/avatar/1_b9d41ce1-bf49-46a6-8cad-204264bc3154.png",
-    "starred_repos": [
-      "Ascend/torchair"
-    ]
-  },
-  {
     "user_name": "weixin_58277783",
     "nick_name": "datutu_L",
     "user_id": 6911601,
@@ -10670,15 +11168,6 @@
     ]
   },
   {
-    "user_name": "jordanyan",
-    "nick_name": "jordanyan",
-    "user_id": 7590427,
-    "avatar": null,
-    "starred_repos": [
-      "Ascend/torchair"
-    ]
-  },
-  {
     "user_name": "dakazhang",
     "nick_name": "dakazhang",
     "user_id": 6465357,
@@ -10692,15 +11181,6 @@
     "nick_name": "gcw_Q6Mt7CFQ",
     "user_id": 7772218,
     "avatar": "",
-    "starred_repos": [
-      "Ascend/torchair"
-    ]
-  },
-  {
-    "user_name": "hitwdy",
-    "nick_name": "1Fire4",
-    "user_id": 94133,
-    "avatar": "https://cdn-img.gitcode.com/fc/ac/5fca62c47b7c8d6e8e9803f5ebf4f33edfb8fb22d4135100e64e0511e2e7c1a8.png",
     "starred_repos": [
       "Ascend/torchair"
     ]
