@@ -25,6 +25,7 @@ import sys
 import urllib.request
 import urllib.parse
 import urllib.error
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
 
@@ -72,12 +73,12 @@ USER_REQUEST_DELAY = 0.2
 
 # ─── HTTP 工具 ────────────────────────────────────────────────────────────────
 
-def get(url, retries=3, delay=REQUEST_DELAY):
+def get(url, retries=3, delay=REQUEST_DELAY, timeout=8):
     """发送 GET 请求，返回解析后的 JSON 或 None。"""
     for attempt in range(retries):
         try:
             req = urllib.request.Request(url, headers=HEADERS)
-            with urllib.request.urlopen(req, timeout=20) as resp:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
                 raw = resp.read()
                 return json.loads(raw.decode("utf-8"))
         except urllib.error.HTTPError as e:
@@ -264,10 +265,58 @@ def classify_user(profile, mr_authors=None, issue_authors=None):
         return "die_hard_fan"        # 铁粉
 
 
+def _fetch_one_user(user):
+    """采集单个用户的画像数据（供线程池调用）。"""
+    uname = user["user_name"]
+    profile = {
+        "user_name": uname,
+        "nick_name": user.get("nick_name", ""),
+        "user_id": user.get("user_id"),
+        "starred_repos": user.get("starred_repos", []),
+        "fans_count": 0,
+        "follow_count": 0,
+        "original_repo_count": 0,
+        "total_repo_count": 0,
+        "total_contributions": 0,
+        "user_type": "ghost",
+    }
+
+    # 1. 关注/粉丝数
+    data = get(f"{BASE_URL}/api/v1/follow/userBaseInfo?username={uname}", timeout=8)
+    if data and "fans_count" in data:
+        profile["fans_count"] = data.get("fans_count", 0)
+        profile["follow_count"] = data.get("follow_count", 0)
+
+    # 2. 创建的仓库
+    data = get(f"{BASE_URL}/api/v1/profile/{uname}/created_projects?page=1&per_page=20", timeout=8)
+    if data and "content" in data:
+        total_repos = data.get("total") or 0
+        profile["total_repo_count"] = total_repos
+        original_count = sum(
+            1 for r in data.get("content", [])
+            if not r.get("forked_from_project")
+        )
+        profile["original_repo_count"] = original_count
+        if total_repos > 20 and original_count == 0:
+            profile["original_repo_count"] = max(0, total_repos - 20)
+
+    # 3. 贡献活动
+    data = get(f"{BASE_URL}/uc/api/v1/events/{uname}/contributions", timeout=8)
+    if data and isinstance(data, dict) and "error_code" not in data:
+        profile["total_contributions"] = sum(v for v in data.values() if isinstance(v, int))
+
+    profile["user_type"] = classify_user(profile)
+    return profile
+
+
+# 并发线程数
+USER_FETCH_WORKERS = 5
+
+
 def collect_users():
     """
     为每位 star 用户获取画像（粉丝数、创建仓库数、贡献活动）。
-    结果保存到 data/user_profiles.json。
+    使用线程池并发采集，结果保存到 data/user_profiles.json。
     """
     print("\n=== 步骤 3：采集用户画像 ===")
 
@@ -277,70 +326,43 @@ def collect_users():
         return
 
     profiles_file = DATA_DIR / "user_profiles.json"
-    # 加载已有进度
     active_user_names = {u["user_name"] for u in all_users}
     existing = [p for p in (load_json(profiles_file) or []) if p.get("user_name") in active_user_names]
     done_users = {p["user_name"] for p in existing}
-    print(f"  已有 {len(done_users)} 位用户画像，待采集 {len(all_users) - len(done_users)} 位")
+    pending = [u for u in all_users if u["user_name"] not in done_users]
+    print(f"  已有 {len(done_users)} 位用户画像，待采集 {len(pending)} 位（并发 {USER_FETCH_WORKERS} 线程）")
+
+    if not pending:
+        print("  无需采集")
+        return existing
 
     profiles = list(existing)
+    completed = 0
+    failed = 0
+    t_start = time.time()
 
-    for i, user in enumerate(all_users):
-        uname = user["user_name"]
-        if uname in done_users:
-            continue
-
-        profile = {
-            "user_name": uname,
-            "nick_name": user.get("nick_name", ""),
-            "user_id": user.get("user_id"),
-            "starred_repos": user.get("starred_repos", []),
-            "fans_count": 0,
-            "follow_count": 0,
-            "original_repo_count": 0,
-            "total_repo_count": 0,
-            "total_contributions": 0,
-            "user_type": "ghost",
-        }
-
-        # 1. 关注/粉丝数
-        url = f"{BASE_URL}/api/v1/follow/userBaseInfo?username={uname}"
-        data = get(url)
-        if data and "fans_count" in data:
-            profile["fans_count"] = data.get("fans_count", 0)
-            profile["follow_count"] = data.get("follow_count", 0)
-        time.sleep(USER_REQUEST_DELAY)
-
-        # 2. 创建的仓库（第一页，只看 total 和是否有非 fork 仓库）
-        url = f"{BASE_URL}/api/v1/profile/{uname}/created_projects?page=1&per_page=20"
-        data = get(url)
-        if data and "content" in data:
-            total_repos = data.get("total") or 0
-            profile["total_repo_count"] = total_repos
-            original_count = sum(
-                1 for r in data.get("content", [])
-                if not r.get("forked_from_project")
-            )
-            profile["original_repo_count"] = original_count
-            if total_repos > 20 and original_count == 0:
-                profile["original_repo_count"] = max(0, total_repos - 20)
-        time.sleep(USER_REQUEST_DELAY)
-
-        # 3. 贡献活动（所有用户都需要获取，是区分开发者的唯一依据）
-        url = f"{BASE_URL}/uc/api/v1/events/{uname}/contributions"
-        data = get(url)
-        if data and isinstance(data, dict) and "error_code" not in data:
-            profile["total_contributions"] = sum(v for v in data.values() if isinstance(v, int))
-        time.sleep(USER_REQUEST_DELAY)
-
-        profile["user_type"] = classify_user(profile)
-        profiles.append(profile)
-        done_users.add(uname)
-
-        if (i + 1) % 50 == 0 or i == len(all_users) - 1:
-            save_json(profiles_file, profiles)
-        if (i + 1) % 10 == 0 or i == len(all_users) - 1:
-            print(f"  [{i+1}/{len(all_users)}] {uname}: fans={profile['fans_count']} repos={profile['original_repo_count']} contribs={profile['total_contributions']} -> {profile['user_type']}")
+    with ThreadPoolExecutor(max_workers=USER_FETCH_WORKERS) as pool:
+        futures = {pool.submit(_fetch_one_user, u): u for u in pending}
+        for future in as_completed(futures):
+            try:
+                profile = future.result()
+            except Exception as e:
+                uname = futures[future]["user_name"]
+                failed += 1
+                print(f"  ✗ {uname}: {e}")
+                continue
+            profiles.append(profile)
+            completed += 1
+            if completed % 50 == 0 or completed == len(pending):
+                save_json(profiles_file, profiles)
+            if completed % 10 == 0 or completed == len(pending):
+                elapsed = time.time() - t_start
+                speed = completed / elapsed if elapsed > 0 else 0
+                remaining = (len(pending) - completed) / speed if speed > 0 else 0
+                print(f"  [{completed}/{len(pending)}] {profile['user_name']}: "
+                      f"fans={profile['fans_count']} repos={profile['original_repo_count']} "
+                      f"contribs={profile['total_contributions']} -> {profile['user_type']}  "
+                      f"({elapsed:.0f}s elapsed, ~{remaining:.0f}s left, {speed:.1f} users/s, {failed} failed)")
 
     save_json(profiles_file, profiles)
     print(f"\n  ✓ 已保存 {len(profiles)} 位用户画像到 data/user_profiles.json")
@@ -1198,8 +1220,7 @@ def main():
     elif cmd == "stars":
         collect_stars()
     elif cmd == "users":
-        # collect_users()
-        pass
+        collect_users()
     elif cmd == "activities":
         collect_activities()
     elif cmd == "issues":
@@ -1225,7 +1246,7 @@ def main():
     elif cmd == "all":
         collect_repos()
         collect_stars()
-        # collect_users()
+        collect_users()
         collect_activities()
         collect_forks()
         collect_issues()
