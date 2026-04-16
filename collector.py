@@ -1,17 +1,19 @@
 """
-CANN GitCode 数据采集器
-采集 gitcode.com/cann 组织下所有仓库的统计数据，以及每个仓库的 star 用户画像。
+指定 GitCode 仓库数据采集器
+采集 cann/ge、cann/hixl 与 Ascend/torchair 的统计数据，以及每个仓库的 star 用户画像。
 
 用法:
     python collector.py repos          # 采集所有仓库基本信息
     python collector.py stars          # 采集所有仓库的 star 用户列表
     python collector.py users          # 采集所有 star 用户的画像数据
     python collector.py activities     # 采集各仓库 MR/Issue 作者（区分贡献者/提问者）
+    python collector.py forks          # 采集各仓库 Fork 明细（用于 D0 用户识别）
     python collector.py issues         # 采集各仓库所有 Issue（含关闭时间）
     python collector.py mrs            # 采集各仓库 MR 详情（含时间戳）
     python collector.py weekly         # 生成周粒度活跃度数据
     python collector.py reclassify     # 补充贡献数据并重新分类
     python collector.py overview       # 生成概览聚合数据
+    python collector.py dlevels        # 生成 D0/D1/D2 汇总数据
     python collector.py all            # 顺序执行以上所有步骤
     python collector.py report         # 生成分析报告（需先完成采集）
 """
@@ -34,9 +36,27 @@ if sys.platform == "win32":
 # ─── 配置 ────────────────────────────────────────────────────────────────────
 
 BASE_URL = "https://web-api.gitcode.com"
-ORG = "cann"
+CONFIG_PATH = Path("config/repos.json")
 DATA_DIR = Path("data")
 DATA_DIR.mkdir(exist_ok=True)
+
+
+def load_repo_config():
+    if not CONFIG_PATH.exists():
+        raise FileNotFoundError(f"缺少配置文件: {CONFIG_PATH}")
+    config = load_json(CONFIG_PATH) or {"repos": []}
+    repos = config.get("repos", [])
+    if not repos:
+        raise ValueError("config/repos.json 中未配置任何仓库")
+    return repos
+
+
+def active_repo_configs():
+    return [repo for repo in load_repo_config() if repo.get("enabled", True)]
+
+
+def active_repo_paths():
+    return [repo["path"] for repo in active_repo_configs()]
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -95,32 +115,16 @@ def load_json(path):
 
 def collect_repos():
     """
-    获取 cann 组织下所有仓库，并逐个请求详情（含 star/fork/issue 数）。
+    获取指定仓库列表，并逐个请求详情（含 star/fork/issue 数）。
     结果保存到 data/repos.json。
     """
     print("\n=== 步骤 1：采集仓库列表及详情 ===")
-
-    # 先获取全量列表（最多 100 条/页，总共不超过 200 条）
-    all_repos = []
-    page = 1
-    while True:
-        url = f"{BASE_URL}/api/v1/groups/{ORG}/projects?page={page}&per_page=50"
-        data = get(url)
-        if not data or not data.get("content"):
-            break
-        all_repos.extend(data["content"])
-        total = data.get("total", 0)
-        print(f"  已获取 {len(all_repos)}/{total} 个仓库 (第{page}页)")
-        if len(all_repos) >= total:
-            break
-        page += 1
-        time.sleep(REQUEST_DELAY)
-
-    print(f"  共 {len(all_repos)} 个仓库，开始获取详情...")
+    repo_configs = active_repo_configs()
+    target_paths = [repo["path"] for repo in repo_configs]
+    print(f"  目标仓库：{', '.join(target_paths)}")
 
     repos_detail = []
-    for i, repo in enumerate(all_repos):
-        path = repo["path_with_namespace"]  # e.g. "cann/manifest"
+    for i, path in enumerate(target_paths, start=1):
         encoded = urllib.parse.quote(path, safe="")
         url = f"{BASE_URL}/api/v1/projects/{encoded}"
         detail = get(url)
@@ -143,12 +147,11 @@ def collect_repos():
                 "language": detail.get("main_repository_language", [None])[0] if detail.get("main_repository_language") else None,
                 "visibility": detail.get("visibility", ""),
             })
-            print(f"  [{i+1}/{len(all_repos)}] {path}: star={repos_detail[-1]['star_count']} fork={repos_detail[-1]['forks_count']} issue={repos_detail[-1]['open_issues_count']}")
+            print(f"  [{i}/{len(target_paths)}] {path}: star={repos_detail[-1]['star_count']} fork={repos_detail[-1]['forks_count']} issue={repos_detail[-1]['open_issues_count']}")
         else:
-            print(f"  [{i+1}/{len(all_repos)}] {path}: 获取失败")
+            print(f"  [{i}/{len(target_paths)}] {path}: 获取失败")
         time.sleep(REQUEST_DELAY)
 
-    repos_detail.sort(key=lambda r: r["star_count"], reverse=True)
     save_json(DATA_DIR / "repos.json", repos_detail)
     print(f"\n  ✓ 已保存 {len(repos_detail)} 个仓库到 data/repos.json")
     return repos_detail
@@ -275,7 +278,8 @@ def collect_users():
 
     profiles_file = DATA_DIR / "user_profiles.json"
     # 加载已有进度
-    existing = load_json(profiles_file) or []
+    active_user_names = {u["user_name"] for u in all_users}
+    existing = [p for p in (load_json(profiles_file) or []) if p.get("user_name") in active_user_names]
     done_users = {p["user_name"] for p in existing}
     print(f"  已有 {len(done_users)} 位用户画像，待采集 {len(all_users) - len(done_users)} 位")
 
@@ -415,6 +419,68 @@ def collect_activities():
     save_json(DATA_DIR / "activity_users.json", result)
     print(f"\n  ✓ MR 作者 {len(mr_authors)} 位，Issue 作者 {len(issue_authors)} 位")
     print(f"    已保存到 data/activity_users.json")
+    return result
+
+
+def collect_forks():
+    """
+    采集目标仓库的 Fork 明细，保存到 data/forks/{repo}.json。
+    用于识别 D0 关注者中的 Fork 用户。
+    """
+    print("\n=== 步骤 3.8：采集 Fork 明细 ===")
+
+    repos = load_json(DATA_DIR / "repos.json")
+    if not repos:
+        print("  请先运行 python collector.py repos")
+        return
+
+    forks_dir = DATA_DIR / "forks"
+    forks_dir.mkdir(exist_ok=True)
+
+    result = {}
+    for repo in repos:
+        repo_id = repo["id"]
+        repo_path = repo["path"]
+        safe_name = repo_path.replace("/", "__")
+        cache_file = forks_dir / f"{safe_name}.json"
+
+        if cache_file.exists():
+            forks = load_json(cache_file) or []
+            print(f"  {repo_path}: 使用缓存（{len(forks)} 条）")
+            result[repo_path] = forks
+            continue
+
+        forks = []
+        page = 1
+        per_page = 100
+        while True:
+            url = f"{BASE_URL}/api/v1/projects/{repo_id}/forks?page={page}&per_page={per_page}"
+            data = get(url)
+            items = (data or {}).get("content") or []
+            for item in items:
+                creator = item.get("creator") or {}
+                forks.append({
+                    "id": item.get("id"),
+                    "namespace": item.get("namespace", ""),
+                    "name": item.get("name", ""),
+                    "web_url": item.get("web_url", ""),
+                    "http_url_to_repo": item.get("http_url_to_repo", ""),
+                    "created_at": item.get("created_at", ""),
+                    "creator_username": creator.get("username") or ((item.get("namespace", "").split("/")[0]) if "/" in item.get("namespace", "") else ""),
+                    "creator_nick_name": creator.get("nick_name") or creator.get("name") or "",
+                    "forked_from": (item.get("forked_from_project") or {}).get("path_with_namespace", repo_path),
+                })
+            if not items or page >= ((data or {}).get("page_count") or 1):
+                break
+            page += 1
+            time.sleep(REQUEST_DELAY)
+
+        save_json(cache_file, forks)
+        result[repo_path] = forks
+        print(f"  {repo_path}: 共 {len(forks)} 条 Fork")
+        time.sleep(REQUEST_DELAY)
+
+    print("\n  ✓ 各仓库 Fork 明细已保存到 data/forks/")
     return result
 
 
@@ -616,6 +682,7 @@ def generate_issue_summary():
     结果保存到 data/issue_summary.json，供前端图表使用。
     """
     print("\n=== 生成 Issue 解决时间汇总 ===")
+    active_paths = set(active_repo_paths())
 
     issues_dir = DATA_DIR / "issues"
     if not issues_dir.exists():
@@ -625,6 +692,8 @@ def generate_issue_summary():
     repos_data = []
     for f in sorted(issues_dir.glob("*.json")):
         repo_path = f.stem.replace("__", "/", 1)
+        if repo_path not in active_paths:
+            continue
         issues = load_json(f) or []
         closed = [i for i in issues if i.get("state") == "closed"
                   and i.get("closed_at") and i.get("created_at")]
@@ -663,6 +732,7 @@ def generate_mr_summary():
     结果保存到 data/mr_summary.json，供前端图表使用。
     """
     print("\n=== 生成 MR 状态汇总 ===")
+    active_paths = set(active_repo_paths())
 
     mrs_dir = DATA_DIR / "mrs"
     if not mrs_dir.exists():
@@ -673,6 +743,8 @@ def generate_mr_summary():
     all_authors = set()
     for f in sorted(mrs_dir.glob("*.json")):
         repo_path = f.stem.replace("__", "/", 1)
+        if repo_path not in active_paths:
+            continue
         mrs = load_json(f) or []
         merged = sum(1 for m in mrs if m.get("state") == "merged")
         open_  = sum(1 for m in mrs if m.get("state") == "opened")
@@ -706,6 +778,7 @@ def generate_weekly_activity():
     结果保存到 data/weekly_activity.json，供前端热力图使用。
     """
     print("\n=== 生成周粒度活跃度数据 ===")
+    active_paths = set(active_repo_paths())
 
     mrs_dir = DATA_DIR / "mrs"
     if not mrs_dir.exists():
@@ -717,6 +790,8 @@ def generate_weekly_activity():
 
     for f in sorted(mrs_dir.glob("*.json")):
         repo_path = f.stem.replace("__", "/", 1)
+        if repo_path not in active_paths:
+            continue
         mrs = load_json(f) or []
         weekly = {}
         for mr in mrs:
@@ -772,6 +847,7 @@ def generate_overview_data():
     结果保存到 data/org_timeline.json，供前端直接使用。
     """
     print("\n=== 生成概览聚合数据 ===")
+    active_paths = set(active_repo_paths())
 
     profiles = load_json(DATA_DIR / "user_profiles.json") or []
     profile_map = {p["user_name"]: p.get("user_type", "die_hard_fan") for p in profiles}
@@ -786,6 +862,9 @@ def generate_overview_data():
     total_events = 0
 
     for f in sorted(stars_dir.glob("*.json")):
+        repo_path = f.stem.replace("__", "/", 1)
+        if repo_path not in active_paths:
+            continue
         users = load_json(f) or []
         for u in users:
             created_at = u.get("created_at", "")
@@ -847,6 +926,150 @@ def generate_users_slim():
     orig  = (DATA_DIR / "user_profiles.json").stat().st_size + (DATA_DIR / "all_star_users.json").stat().st_size
     slim  = (DATA_DIR / "users_slim.json").stat().st_size
     print(f"  ✓ {len(result)} 位用户，{slim//1024}KB（原两文件合计 {orig//1024}KB），已保存到 data/users_slim.json")
+    return result
+
+
+def generate_dlevel_summary():
+    """
+    生成 D0/D1/D2 分层汇总数据，保存到 data/dlevel_summary.json。
+    D0：Star/Fork 用户（排除 D1/D2）
+    D1：Issue 作者或 PR 作者（排除 D2）
+    D2：至少合入 1 个 PR 的用户
+    """
+    print("\n=== 生成 D0/D1/D2 汇总数据 ===")
+
+    repos = load_json(DATA_DIR / "repos.json") or []
+    users_slim = load_json(DATA_DIR / "users_slim.json") or []
+    stars_dir = DATA_DIR / "stars"
+    forks_dir = DATA_DIR / "forks"
+    issues_dir = DATA_DIR / "issues"
+    mrs_dir = DATA_DIR / "mrs"
+    if not repos or not stars_dir.exists() or not forks_dir.exists() or not issues_dir.exists() or not mrs_dir.exists():
+        print("  缺少必要数据，请先运行 repos/stars/forks/issues/mrs/users-slim")
+        return
+
+    user_meta = {u["user_name"]: {
+        "nick_name": u.get("nick_name", ""),
+        "fans_count": u.get("fans_count"),
+        "original_repo_count": u.get("original_repo_count"),
+        "total_contributions": u.get("total_contributions"),
+        "starred_repos": u.get("starred_repos", []),
+    } for u in users_slim}
+
+    priority = {"d0": 0, "d1": 1, "d2": 2}
+    repo_counts = {}
+    repo_users = {}
+    global_levels = {}
+    monthly = {}
+
+    for repo in repos:
+        repo_path = repo["path"]
+        safe_name = repo_path.replace("/", "__")
+        stars = load_json(stars_dir / f"{safe_name}.json") or []
+        forks = load_json(forks_dir / f"{safe_name}.json") or []
+        issues = load_json(issues_dir / f"{safe_name}.json") or []
+        mrs = load_json(mrs_dir / f"{safe_name}.json") or []
+
+        star_map = {}
+        for s in stars:
+            uname = s.get("user_name")
+            if not uname:
+                continue
+            star_map[uname] = {
+                "star_time": s.get("created_at", ""),
+                "nick_name": s.get("nick_name", ""),
+            }
+            user_meta.setdefault(uname, {"nick_name": s.get("nick_name", ""), "fans_count": None, "original_repo_count": None, "total_contributions": None, "starred_repos": []})
+
+        fork_map = {}
+        for f in forks:
+            uname = f.get("creator_username")
+            if not uname:
+                continue
+            fork_map[uname] = {
+                "fork_time": f.get("created_at", ""),
+                "nick_name": f.get("creator_nick_name", ""),
+            }
+            user_meta.setdefault(uname, {"nick_name": f.get("creator_nick_name", ""), "fans_count": None, "original_repo_count": None, "total_contributions": None, "starred_repos": []})
+
+        issue_authors = {i.get("author") for i in issues if i.get("author")}
+        pr_authors = {m.get("author") for m in mrs if m.get("author")}
+        merged_authors = {m.get("author") for m in mrs if m.get("author") and m.get("state") == "merged" and m.get("merged_at")}
+
+        all_repo_usernames = set(star_map) | set(fork_map) | issue_authors | pr_authors | merged_authors
+        users = []
+        counts = {"d0": 0, "d1": 0, "d2": 0, "total": 0}
+        for uname in sorted(all_repo_usernames):
+            if uname in merged_authors:
+                level = "d2"
+            elif uname in issue_authors or uname in pr_authors:
+                level = "d1"
+            else:
+                level = "d0"
+            counts[level] += 1
+            counts["total"] += 1
+            meta = user_meta.get(uname, {})
+            sources = []
+            if uname in star_map:
+                sources.append("star")
+            if uname in fork_map:
+                sources.append("fork")
+            if uname in issue_authors:
+                sources.append("issue")
+            if uname in pr_authors:
+                sources.append("pr")
+            if uname in merged_authors:
+                sources.append("merged_pr")
+            star_time = star_map.get(uname, {}).get("star_time", "")
+            users.append({
+                "user_name": uname,
+                "nick_name": meta.get("nick_name") or star_map.get(uname, {}).get("nick_name") or fork_map.get(uname, {}).get("nick_name") or uname,
+                "level": level,
+                "sources": sources,
+                "star_time": star_time,
+                "fans_count": meta.get("fans_count"),
+                "original_repo_count": meta.get("original_repo_count"),
+                "total_contributions": meta.get("total_contributions"),
+                "starred_repos": meta.get("starred_repos", []),
+            })
+            if uname not in global_levels or priority[level] > priority[global_levels[uname]]:
+                global_levels[uname] = level
+
+            if star_time and len(star_time) >= 7:
+                ym = star_time[:7]
+                monthly.setdefault(ym, {"d0": 0, "d1": 0, "d2": 0})
+                monthly[ym][level] += 1
+
+        repo_counts[repo_path] = counts
+        repo_users[repo_path] = users
+
+    global_counts = {"d0": 0, "d1": 0, "d2": 0, "total": len(global_levels)}
+    for level in global_levels.values():
+        global_counts[level] += 1
+
+    star_timeline = []
+    cumulative = 0
+    for ym in sorted(monthly):
+        new_stars = monthly[ym]["d0"] + monthly[ym]["d1"] + monthly[ym]["d2"]
+        cumulative += new_stars
+        star_timeline.append({
+            "month": ym,
+            "d0": monthly[ym]["d0"],
+            "d1": monthly[ym]["d1"],
+            "d2": monthly[ym]["d2"],
+            "new_stars": new_stars,
+            "cumulative": cumulative,
+        })
+
+    result = {
+        "generated_at": datetime.now().strftime("%Y-%m-%d"),
+        "global_counts": global_counts,
+        "repo_counts": repo_counts,
+        "repo_users": repo_users,
+        "star_timeline": star_timeline,
+    }
+    save_json(DATA_DIR / "dlevel_summary.json", result)
+    print(f"  ✓ 已保存 D0/D1/D2 汇总到 data/dlevel_summary.json")
     return result
 
 
@@ -980,6 +1203,8 @@ def main():
         collect_activities()
     elif cmd == "issues":
         collect_issues()
+    elif cmd == "forks":
+        collect_forks()
     elif cmd == "mrs":
         collect_mrs()
     elif cmd == "issue-summary":
@@ -994,16 +1219,20 @@ def main():
         reclassify_users()
     elif cmd == "overview":
         generate_overview_data()
+    elif cmd == "dlevels":
+        generate_dlevel_summary()
     elif cmd == "all":
         collect_repos()
         collect_stars()
         collect_users()
         collect_activities()
+        collect_forks()
         collect_issues()
         collect_mrs()
         reclassify_users()
         generate_overview_data()
         generate_users_slim()
+        generate_dlevel_summary()
         generate_issue_summary()
         generate_mr_summary()
         generate_weekly_activity()
