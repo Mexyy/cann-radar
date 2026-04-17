@@ -1,0 +1,86 @@
+name: Collect Data & Deploy to OBS
+
+on:
+  push:
+    branches: [main]
+    paths: ['config/repos.json']
+  schedule:
+    - cron: '0 14 * * *'    # 22:00 CST，每天增量更新
+    - cron: '0 14 * * 0'    # 22:00 CST，每周日全量刷新用户画像
+
+jobs:
+  collect:
+    name: Collect Data
+    runs-on: euleros-2.10.1
+    defaults:
+      run:
+        working-directory: repo_workspace
+    steps:
+      - uses: checkout-action@0.0.1
+
+      - name: Setup Python
+        uses: setup-python@0.0.1
+        with:
+          python-version: '3.11'
+
+      - name: Clear stale caches
+        run: |
+          rm -f data/repos.json data/org_timeline.json data/weekly_activity.json
+          rm -f data/dlevel_summary.json data/users_slim.json
+          rm -f data/issue_summary.json data/mr_summary.json
+          rm -rf data/stars/ data/forks/ data/mrs/ data/issues/
+
+      - name: Collect all data
+        run: python collector.py all
+
+      - name: Commit updated data
+        run: |
+          git config user.name "gitcode-ci[bot]"
+          git config user.email "gitcode-ci[bot]@noreply.gitcode.com"
+          git add data/
+          git diff --staged --quiet && echo "No changes" || (
+            git commit -m "chore: 自动更新数据 $(date -u '+%Y-%m-%d')"
+            git push
+          )
+
+  deploy:
+    name: Deploy to OBS
+    needs: collect
+    runs-on: euleros-2.10.1
+    defaults:
+      run:
+        working-directory: repo_workspace
+    steps:
+      - uses: checkout-action@0.0.1
+
+      # 安装华为云 obsutil 命令行工具
+      - name: Install obsutil
+        run: |
+          curl -sSL https://obs-community.obs.cn-north-1.myhuaweicloud.com/obsutil/current/obsutil_linux_amd64.tar.gz -o obsutil.tar.gz
+          tar -xzf obsutil.tar.gz
+          chmod +x obsutil_linux_amd64_*/obsutil
+          mv obsutil_linux_amd64_*/obsutil /usr/local/bin/
+          obsutil version
+
+      # 配置 OBS 访问凭证
+      - name: Configure obsutil
+        run: |
+          obsutil config \
+            -i=${{ secrets.HW_AK }} \
+            -k=${{ secrets.HW_SK }} \
+            -e=${{ vars.OBS_ENDPOINT }}
+
+      # 上传静态文件到 OBS 桶
+      - name: Upload to OBS
+        run: |
+          BUCKET="obs://${{ vars.OBS_BUCKET }}"
+
+          # 上传入口页面
+          obsutil cp index.html ${BUCKET}/index.html -f -vmd5
+
+          # 上传配置和数据目录
+          obsutil cp config/ ${BUCKET}/config/ -r -f -vmd5
+          obsutil cp data/   ${BUCKET}/data/   -r -f -vmd5
+
+          echo "✓ 部署完成"
+          echo "  访问地址: https://${{ vars.OBS_BUCKET }}.obs-website.$(echo ${{ vars.OBS_ENDPOINT }} | sed 's/obs.//')/"
