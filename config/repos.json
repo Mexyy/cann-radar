@@ -26,6 +26,14 @@
       ]
     },
     {
+      "path": "cann/torchtitan-npu",
+      "display_name": "torchtitan-npu",
+      "enabled": true,
+      "goals": [
+        { "label": "2026年上半年达到100", "target": 100 }
+      ]
+    },
+    {
       "path": "Ascend/torchair",
       "display_name": "TorchAir",
       "enabled": true,
