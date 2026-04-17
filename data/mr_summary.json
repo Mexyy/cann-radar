@@ -11,24 +11,24 @@
       "name": "ge",
       "path": "cann/ge",
       "merged": 1124,
-      "open": 190,
-      "total": 1314
+      "open": 192,
+      "total": 1316
     },
     {
       "name": "hixl",
       "path": "cann/hixl",
       "merged": 316,
-      "open": 28,
-      "total": 344
+      "open": 29,
+      "total": 345
     },
     {
       "name": "graph-autofusion",
       "path": "cann/graph-autofusion",
-      "merged": 200,
-      "open": 23,
+      "merged": 201,
+      "open": 22,
       "total": 223
     }
   ],
   "unique_authors": 561,
-  "generated_at": "2026-04-16"
+  "generated_at": "2026-04-17"
 }

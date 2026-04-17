@@ -10,9 +10,9 @@
     {
       "name": "hixl",
       "path": "cann/hixl",
-      "avg_days": 13.3,
-      "closed": 169,
-      "opened": 25
+      "avg_days": 13.5,
+      "closed": 171,
+      "opened": 23
     },
     {
       "name": "graph-autofusion",
@@ -29,5 +29,5 @@
       "opened": 13
     }
   ],
-  "generated_at": "2026-04-16"
+  "generated_at": "2026-04-17"
 }

@@ -1,0 +1,46 @@
+[
+  {
+    "id": 9699919,
+    "namespace": "Ding_Jing/torchtitan-npu",
+    "name": "torchtitan-npu",
+    "web_url": "https://gitcode.com/Ding_Jing/torchtitan-npu",
+    "http_url_to_repo": "https://gitcode.com/Ding_Jing/torchtitan-npu.git",
+    "created_at": "2026-04-17T09:39:16.476+08:00",
+    "creator_username": "Ding_Jing",
+    "creator_nick_name": "Ding_Jing",
+    "forked_from": "cann/torchtitan-npu"
+  },
+  {
+    "id": 9699819,
+    "namespace": "wqtshg_wt/torchtitan-npu",
+    "name": "torchtitan-npu",
+    "web_url": "https://gitcode.com/wqtshg_wt/torchtitan-npu",
+    "http_url_to_repo": "https://gitcode.com/wqtshg_wt/torchtitan-npu.git",
+    "created_at": "2026-04-17T09:27:50.347+08:00",
+    "creator_username": "wqtshg_wt",
+    "creator_nick_name": "王涛",
+    "forked_from": "cann/torchtitan-npu"
+  },
+  {
+    "id": 9699791,
+    "namespace": "wang-pierre-jiacheng/torchtitan-npu",
+    "name": "torchtitan-npu",
+    "web_url": "https://gitcode.com/wang-pierre-jiacheng/torchtitan-npu",
+    "http_url_to_repo": "https://gitcode.com/wang-pierre-jiacheng/torchtitan-npu.git",
+    "created_at": "2026-04-17T09:24:02.123+08:00",
+    "creator_username": "wang-pierre-jiacheng",
+    "creator_nick_name": "wang-pierre-jiacheng",
+    "forked_from": "cann/torchtitan-npu"
+  },
+  {
+    "id": 9306650,
+    "namespace": "zhangjianshe/torchtitan-npu",
+    "name": "torchtitan-npu",
+    "web_url": "https://gitcode.com/zhangjianshe/torchtitan-npu",
+    "http_url_to_repo": "https://gitcode.com/zhangjianshe/torchtitan-npu.git",
+    "created_at": "2026-03-03T09:34:16.109+08:00",
+    "creator_username": "zhangjianshe",
+    "creator_nick_name": "zhangjianshe",
+    "forked_from": "cann/torchtitan-npu"
+  }
+]

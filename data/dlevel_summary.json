@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-16",
+  "generated_at": "2026-04-17",
   "global_counts": {
-    "d0": 878,
-    "d1": 429,
+    "d0": 885,
+    "d1": 432,
     "d2": 421,
-    "total": 1728
+    "total": 1738
   },
   "repo_counts": {
     "cann/ge": {
@@ -24,6 +24,12 @@
       "d1": 22,
       "d2": 22,
       "total": 368
+    },
+    "cann/torchtitan-npu": {
+      "d0": 52,
+      "d1": 4,
+      "d2": 0,
+      "total": 56
     },
     "Ascend/torchair": {
       "d0": 497,
@@ -752,7 +758,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -957,6 +964,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -1119,6 +1127,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -1169,6 +1178,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -1415,6 +1425,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -2023,7 +2034,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -2070,7 +2082,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -2279,6 +2292,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -2317,7 +2331,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -2823,6 +2838,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -2858,6 +2874,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -3513,6 +3530,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -3660,6 +3678,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -4450,7 +4469,8 @@
         "original_repo_count": 0,
         "total_contributions": 782,
         "starred_repos": [
-          "cann/ge"
+          "cann/ge",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -4880,6 +4900,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -4900,6 +4921,7 @@
         "total_contributions": 914,
         "starred_repos": [
           "cann/ge",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -5150,7 +5172,8 @@
         "total_contributions": 1777,
         "starred_repos": [
           "cann/ge",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -6005,6 +6028,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -6755,6 +6779,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -6772,7 +6797,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -7011,6 +7037,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -7812,6 +7839,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -7941,6 +7969,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -7997,6 +8026,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -8264,6 +8294,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -8464,6 +8495,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -8680,7 +8712,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -9066,6 +9099,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -9253,6 +9287,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -9384,6 +9419,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -9499,6 +9535,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -10108,6 +10145,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -10292,7 +10330,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -10647,6 +10686,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -10679,6 +10719,7 @@
         "total_contributions": 0,
         "starred_repos": [
           "cann/ge",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -10712,7 +10753,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -10996,6 +11038,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -11389,7 +11432,8 @@
         "original_repo_count": 0,
         "total_contributions": 693,
         "starred_repos": [
-          "cann/hixl"
+          "cann/hixl",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -11507,7 +11551,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -11697,6 +11742,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -11861,6 +11907,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -11941,6 +11988,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -12231,6 +12279,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -12809,7 +12858,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -12860,7 +12910,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -12952,6 +13003,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -12990,7 +13042,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -13315,6 +13368,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -13346,6 +13400,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -13742,6 +13797,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -13872,6 +13928,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -14900,6 +14957,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -15725,6 +15783,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -15787,7 +15846,8 @@
         "nick_name": "luhengh",
         "level": "d0",
         "sources": [
-          "star"
+          "star",
+          "fork"
         ],
         "star_time": "2025-12-30T06:14:50.000+00:00",
         "fans_count": 0,
@@ -16410,6 +16470,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -16427,7 +16488,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -16598,6 +16660,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -17344,6 +17407,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -17438,6 +17502,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -17493,6 +17558,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -17742,6 +17808,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -17878,6 +17945,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -18049,7 +18117,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -18410,6 +18479,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -18558,7 +18628,8 @@
         "original_repo_count": 0,
         "total_contributions": 0,
         "starred_repos": [
-          "cann/hixl"
+          "cann/hixl",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -18576,6 +18647,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -18627,6 +18699,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -18660,6 +18733,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -18784,7 +18858,8 @@
         "original_repo_count": 0,
         "total_contributions": 515,
         "starred_repos": [
-          "cann/hixl"
+          "cann/hixl",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -19269,6 +19344,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -19569,7 +19645,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -19635,6 +19712,7 @@
         "total_contributions": 864,
         "starred_repos": [
           "cann/hixl",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -19800,6 +19878,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -19836,7 +19915,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -19918,6 +19998,7 @@
         "total_contributions": 0,
         "starred_repos": [
           "cann/hixl",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -20144,6 +20225,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -20698,7 +20780,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -20802,6 +20885,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -20886,6 +20970,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -20904,6 +20989,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -21074,6 +21160,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -21370,7 +21457,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -21420,7 +21508,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -21549,6 +21638,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -21584,7 +21674,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -21874,6 +21965,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -21892,6 +21984,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -22182,6 +22275,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -22251,6 +22345,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -22540,6 +22635,7 @@
         "total_contributions": 380,
         "starred_repos": [
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -22872,6 +22968,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -22890,6 +22987,7 @@
         "total_contributions": 914,
         "starred_repos": [
           "cann/ge",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -22986,7 +23084,8 @@
         "total_contributions": 1777,
         "starred_repos": [
           "cann/ge",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -23561,6 +23660,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -23957,6 +24057,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -23974,7 +24075,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -24148,6 +24250,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -24646,6 +24749,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -24710,6 +24814,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -24765,6 +24870,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -24851,6 +24957,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -24985,6 +25092,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -25172,7 +25280,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -25324,6 +25433,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -25427,6 +25537,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -25492,6 +25603,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -25526,6 +25638,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -25924,6 +26037,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -26060,7 +26174,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -26240,6 +26355,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -26257,7 +26373,8 @@
         "starred_repos": [
           "cann/ge",
           "cann/hixl",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -26503,6 +26620,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -26537,6 +26655,998 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion"
+        ]
+      }
+    ],
+    "cann/torchtitan-npu": [
+      {
+        "user_name": "CHENGCHANGHU",
+        "nick_name": "allx",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:14:55.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 0,
+        "starred_repos": [
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "CjianForBetter",
+        "nick_name": "OnesryLight",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:19:43.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 693,
+        "starred_repos": [
+          "cann/hixl",
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "Ding_Jing",
+        "nick_name": "Ding_Jing",
+        "level": "d0",
+        "sources": [
+          "fork"
+        ],
+        "star_time": "",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 1170,
+        "starred_repos": [
+          "cann/ge",
+          "cann/graph-autofusion"
+        ]
+      },
+      {
+        "user_name": "GuoWenbo",
+        "nick_name": "GuoWenbo",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:41:15.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 476,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "KenChow",
+        "nick_name": "KenChow",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:24:09.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 4,
+        "total_contributions": 1166,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "Mexyy",
+        "nick_name": "夏国正",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:40:21.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 835,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "MissingPompeii",
+        "nick_name": "MissingPompeii",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-02-28T06:13:18.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 188,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "Sunyp01",
+        "nick_name": "SunYaping",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:58:03.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 1,
+        "total_contributions": 0,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "bigheadincharge",
+        "nick_name": "未生",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-16T23:01:25.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 0,
+        "starred_repos": [
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "cann-robot",
+        "nick_name": "CANN-robot",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-02-27T09:18:43.000+00:00",
+        "fans_count": 7,
+        "original_repo_count": 0,
+        "total_contributions": 0,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "caojingyi",
+        "nick_name": "kkodoo",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-01-27T08:47:22.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 576,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "chenjiazhong",
+        "nick_name": "chenjiazhong",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T02:12:55.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 93,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "chenma",
+        "nick_name": "chenma",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:31:41.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 416,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "dddxhh",
+        "nick_name": "huangfei",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:28:21.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 1,
+        "total_contributions": 143,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "depeng1994",
+        "nick_name": "张德鹏",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-01-21T14:19:58.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 873,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "fengye0903",
+        "nick_name": "Cutty_Flame",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-02-28T02:23:22.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 198,
+        "starred_repos": [
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "gcw_LlDFlrhE",
+        "nick_name": "wangziying",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-01-26T01:45:13.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 65,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "gcw_V3YyYBt1",
+        "nick_name": "gcw_V3YyYBt1",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:25:16.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 217,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "gcw_maqAfEaS",
+        "nick_name": "gcw_maqAfEaS",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-16T15:02:19.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 0,
+        "starred_repos": [
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "hahaSuperMan",
+        "nick_name": "hahaSuperMan",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-16T14:59:36.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 0,
+        "starred_repos": [
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "hitwdy",
+        "nick_name": "1Fire4",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-01-31T02:17:43.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 380,
+        "starred_repos": [
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "houyanbao",
+        "nick_name": "houyanbao",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:33:25.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 782,
+        "starred_repos": [
+          "cann/ge",
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "jichen123",
+        "nick_name": "计晨",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:24:52.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 0,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "jikai-tyler",
+        "nick_name": "嵇锴",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:41:22.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 914,
+        "starred_repos": [
+          "cann/ge",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "kobemini",
+        "nick_name": "GengChao",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:34:23.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 2,
+        "total_contributions": 1777,
+        "starred_repos": [
+          "cann/ge",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "lrwei0709",
+        "nick_name": "weijinyi",
+        "level": "d1",
+        "sources": [
+          "star",
+          "issue"
+        ],
+        "star_time": "2026-04-16T14:19:29.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 238,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "mystri",
+        "nick_name": "hanboyou",
+        "level": "d1",
+        "sources": [
+          "star",
+          "issue"
+        ],
+        "star_time": "2026-03-10T08:38:51.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 1,
+        "total_contributions": 1012,
+        "starred_repos": [
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "nichorians",
+        "nick_name": "NiJianan",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:31:45.000+00:00",
+        "fans_count": 1,
+        "original_repo_count": 0,
+        "total_contributions": 0,
+        "starred_repos": [
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "panchao-gitcode",
+        "nick_name": "panchao-gitcode",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-16T15:00:47.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 121,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "pandeng01",
+        "nick_name": "pandeng01",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:31:06.000+00:00",
+        "fans_count": 1,
+        "original_repo_count": 1,
+        "total_contributions": 260,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "qianbi1999",
+        "nick_name": "zhoujian",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-03-03T11:46:26.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 303,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "qq_40517592",
+        "nick_name": "code17",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:30:00.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 238,
+        "starred_repos": [
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "s003576sgd",
+        "nick_name": "sgd",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:24:16.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 75,
+        "starred_repos": [
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "stevenaw0",
+        "nick_name": "黄桂军",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:34:20.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 3,
+        "total_contributions": 2522,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "tang-haojie",
+        "nick_name": "tang-haojie",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:30:45.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 1,
+        "total_contributions": 594,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "tangqunzhang",
+        "nick_name": "tangqunzhang",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:28:28.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 1,
+        "total_contributions": 1657,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "wang-pierre-jiacheng",
+        "nick_name": "wang-pierre-jiacheng",
+        "level": "d0",
+        "sources": [
+          "star",
+          "fork"
+        ],
+        "star_time": "2026-04-17T01:23:58.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 871,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "wangxiaotian995",
+        "nick_name": "wangxiaotian995",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:24:03.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 1835,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "weixin_39767879",
+        "nick_name": "朱征",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-01-31T07:23:57.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 144,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "wqtshg_wt",
+        "nick_name": "王涛",
+        "level": "d0",
+        "sources": [
+          "star",
+          "fork"
+        ],
+        "star_time": "2026-04-17T01:27:42.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 1465,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "xbjlu",
+        "nick_name": "xbjlu",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-16T14:22:30.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 0,
+        "starred_repos": [
+          "cann/hixl",
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "xchu42",
+        "nick_name": "xchu42",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:24:20.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 2090,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "xiebangrui2025",
+        "nick_name": "xiebangrui2025",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:24:52.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 685,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "xubin787",
+        "nick_name": "xubin",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-01-31T07:43:58.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 450,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "xuyujun",
+        "nick_name": "xuyujun",
+        "level": "d1",
+        "sources": [
+          "star",
+          "issue"
+        ],
+        "star_time": "2026-03-02T11:08:46.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 515,
+        "starred_repos": [
+          "cann/hixl",
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "yurongkun",
+        "nick_name": "yurongkun",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:24:00.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 466,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "zhaiyukun",
+        "nick_name": "zhaiyukun",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:39:22.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 687,
+        "starred_repos": [
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "zhanghz1",
+        "nick_name": "zhanghz1",
+        "level": "d1",
+        "sources": [
+          "star",
+          "issue"
+        ],
+        "star_time": "2026-01-26T01:41:57.000+00:00",
+        "fans_count": 1,
+        "original_repo_count": 0,
+        "total_contributions": 0,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "zhangjianshe",
+        "nick_name": "zhangjianshe",
+        "level": "d0",
+        "sources": [
+          "star",
+          "fork"
+        ],
+        "star_time": "2026-04-17T01:12:09.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 179,
+        "starred_repos": [
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "zhangwei1177",
+        "nick_name": "张伟",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-16T14:34:04.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 864,
+        "starred_repos": [
+          "cann/hixl",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "zhaowei1936",
+        "nick_name": "zhaowei1936",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-16T14:19:35.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 130,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "zhaoxi1029",
+        "nick_name": "zx1029",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:41:06.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 0,
+        "starred_repos": [
+          "cann/ge",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "zhaozhihui",
+        "nick_name": "zhaozhihui",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:39:26.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 1627,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
+        ]
+      },
+      {
+        "user_name": "zhong_lin",
+        "nick_name": "zhong_lin",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-16T14:21:20.000+00:00",
+        "fans_count": 1,
+        "original_repo_count": 0,
+        "total_contributions": 0,
+        "starred_repos": [
+          "cann/hixl",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "zqmin",
+        "nick_name": "zqmin",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-17T01:26:39.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 183,
+        "starred_repos": [
+          "cann/ge",
+          "cann/hixl",
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu",
+          "Ascend/torchair"
+        ]
+      },
+      {
+        "user_name": "zxhdl",
+        "nick_name": "zxhdl",
+        "level": "d0",
+        "sources": [
+          "star"
+        ],
+        "star_time": "2026-04-16T14:28:17.000+00:00",
+        "fans_count": 0,
+        "original_repo_count": 0,
+        "total_contributions": 0,
+        "starred_repos": [
+          "cann/torchtitan-npu"
         ]
       }
     ],
@@ -27380,6 +28490,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -27688,6 +28799,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -27754,6 +28866,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -28126,6 +29239,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -29212,6 +30326,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -29711,6 +30826,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -29730,6 +30846,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -30937,6 +32054,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -31227,6 +32345,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -32573,6 +33692,7 @@
         "total_contributions": 380,
         "starred_repos": [
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -33316,6 +34436,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -33332,6 +34453,7 @@
         "total_contributions": 914,
         "starred_repos": [
           "cann/ge",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -33739,7 +34861,8 @@
         "total_contributions": 1777,
         "starred_repos": [
           "cann/ge",
-          "cann/graph-autofusion"
+          "cann/graph-autofusion",
+          "cann/torchtitan-npu"
         ]
       },
       {
@@ -34910,6 +36033,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -35590,6 +36714,7 @@
         "original_repo_count": 0,
         "total_contributions": 0,
         "starred_repos": [
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -35734,6 +36859,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -36018,6 +37144,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -36716,6 +37843,7 @@
         "original_repo_count": 0,
         "total_contributions": 75,
         "starred_repos": [
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -37139,6 +38267,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -37302,6 +38431,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -37342,6 +38472,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -37682,6 +38813,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -38007,6 +39139,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -38875,6 +40008,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -39231,6 +40365,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -39353,6 +40488,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -39478,6 +40614,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -40623,6 +41760,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -41077,6 +42215,7 @@
         "total_contributions": 864,
         "starred_repos": [
           "cann/hixl",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -41298,6 +42437,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -41314,6 +42454,7 @@
         "total_contributions": 0,
         "starred_repos": [
           "cann/ge",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -41469,6 +42610,7 @@
         "total_contributions": 0,
         "starred_repos": [
           "cann/hixl",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -41879,6 +43021,7 @@
           "cann/ge",
           "cann/hixl",
           "cann/graph-autofusion",
+          "cann/torchtitan-npu",
           "Ascend/torchair"
         ]
       },
@@ -42057,35 +43200,35 @@
     },
     {
       "month": "2026-01",
-      "d0": 143,
-      "d1": 26,
+      "d0": 149,
+      "d1": 27,
       "d2": 15,
-      "new_stars": 184,
-      "cumulative": 1521
+      "new_stars": 191,
+      "cumulative": 1528
     },
     {
       "month": "2026-02",
-      "d0": 62,
+      "d0": 65,
       "d1": 20,
       "d2": 5,
-      "new_stars": 87,
-      "cumulative": 1608
+      "new_stars": 90,
+      "cumulative": 1618
     },
     {
       "month": "2026-03",
-      "d0": 185,
-      "d1": 26,
+      "d0": 186,
+      "d1": 28,
       "d2": 24,
-      "new_stars": 235,
-      "cumulative": 1843
+      "new_stars": 238,
+      "cumulative": 1856
     },
     {
       "month": "2026-04",
-      "d0": 94,
-      "d1": 14,
+      "d0": 135,
+      "d1": 15,
       "d2": 8,
-      "new_stars": 116,
-      "cumulative": 1959
+      "new_stars": 158,
+      "cumulative": 2014
     }
   ]
 }
