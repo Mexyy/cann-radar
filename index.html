@@ -112,22 +112,34 @@
     .repo-charts { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 24px; }
 
     /* 用户列表 */
-    .user-list-header { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
+    .user-list-header { margin-bottom: 12px; }
     .user-list-header h2 { font-size: 14px; font-weight: 600; color: var(--text); }
-    .filter-btns { display: flex; gap: 6px; overflow-x: auto; -webkit-overflow-scrolling: touch; flex-wrap: nowrap; padding-bottom: 4px; }
-    .filter-btn {
-      padding: 4px 12px; border-radius: 20px; font-size: 12px; cursor: pointer; white-space: nowrap; flex-shrink: 0;
-      border: 1px solid var(--border-3); background: transparent; color: var(--text-2); transition: all .15s;
-    }
-    .filter-btn.active { background: #7eb6ff22; border-color: var(--accent); color: var(--accent); }
+    .filter-container { position: relative; display: inline-flex; align-items: center; }
+    .filter-btn { display: flex; align-items: center; gap: 4px; cursor: pointer; color: var(--text-3); font-weight: 500; padding: 4px 6px; margin: -4px -6px; border-radius: 6px; transition: background 0.2s, color 0.2s; user-select: none; }
+    .filter-btn:hover { background: var(--hover-bg); color: var(--text); }
+    .filter-btn.active-filter { color: var(--accent); }
+    .filter-btn .icon { font-size: 10px; transition: transform 0.2s; margin-left: 2px; }
+    .filter-container.active .filter-btn .icon { transform: rotate(180deg); }
+    .filter-badge { background: var(--accent); color: #fff; border-radius: 10px; padding: 0 5px; font-size: 10px; font-weight: 600; line-height: 14px; display: none; }
+    .filter-badge.active { display: inline-block; }
+    .filter-popup { position: absolute; top: 100%; left: 0; margin-top: 8px; background: var(--surface); border: 1px solid var(--border-3); border-radius: 8px; padding: 6px; min-width: 140px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); display: none; z-index: 10; max-height: 200px; overflow-y: auto; }
+    .filter-container.active .filter-popup { display: block; }
+    .filter-options { display: flex; flex-direction: column; gap: 2px; }
+    .filter-option-label { display: flex; align-items: center; gap: 8px; padding: 6px 8px; cursor: pointer; border-radius: 4px; color: var(--text); font-size: 12px; font-weight: normal; transition: background 0.2s; }
+    .filter-option-label:hover { background: var(--hover-bg); }
+    .filter-option-label input { cursor: pointer; accent-color: var(--accent); margin: 0; }
     .user-table { width: 100%; border-collapse: collapse; font-size: 13px; }
-    .user-table th { text-align: left; padding: 8px 12px; color: var(--text-3); font-weight: 500; border-bottom: 1px solid var(--border-2); }
+    .user-table th { text-align: left; padding: 8px 12px; color: var(--text-3); font-weight: 500; border-bottom: 1px solid var(--border-2); vertical-align: top; }
     .user-table td { padding: 8px 12px; border-bottom: 1px solid var(--row-border); vertical-align: middle; color: var(--text); }
     .user-table tr:hover td { background: var(--hover-bg); }
+    .sort-btn { border: none; background: transparent; color: var(--text-3); cursor: pointer; font: inherit; }
+    .sort-btn:hover, .sort-btn.active { color: var(--accent); }
     .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 500; }
     .badge-d0 { background: #4ecdc422; color: #4ecdc4; border: 1px solid #4ecdc444; }
     .badge-d1 { background: #f5a62322; color: #f5a623; border: 1px solid #f5a62344; }
     .badge-d2 { background: #5b8def22; color: #5b8def; border: 1px solid #5b8def44; }
+    .badge-source-internal { background: #7eb6ff22; color: #7eb6ff; border: 1px solid #7eb6ff44; }
+    .badge-source-external { background: #9ca3af22; color: #9ca3af; border: 1px solid #9ca3af44; }
     .user-link { color: var(--accent); text-decoration: none; }
     .user-link:hover { text-decoration: underline; }
     .pagination { display: flex; gap: 6px; align-items: center; margin-top: 14px; }
@@ -172,7 +184,6 @@
       .chart-legend-row { flex-direction: column; }
       .chart-legend-row .legend-panel { width: 100%; padding-top: 8px; }
       .user-table th:nth-child(3), .user-table td:nth-child(3),
-      .user-table th:nth-child(5), .user-table td:nth-child(5),
       .user-table th:nth-child(6), .user-table td:nth-child(6),
       .user-table th:nth-child(7), .user-table td:nth-child(7) { display: none; }
     }
@@ -303,12 +314,6 @@
     <div class="chart-box">
       <div class="user-list-header">
         <h2 id="user-list-title">Star 用户列表</h2>
-        <div class="filter-btns" id="filter-btns">
-          <button class="filter-btn active" data-type="all">全部</button>
-          <button class="filter-btn" data-type="d0">D0 关注者</button>
-          <button class="filter-btn" data-type="d1">D1 贡献者</button>
-          <button class="filter-btn" data-type="d2">D2 PR贡献者</button>
-        </div>
       </div>
       <div class="table-wrapper">
       <table class="user-table">
@@ -317,12 +322,31 @@
             <th>#</th>
             <th>用户名</th>
             <th>昵称</th>
-            <th>类型</th>
-            <th>粉丝</th>
-            <th>原创仓库</th>
-            <th>年贡献</th>
-            <th>Star 的仓库数</th>
-            <th>Star 时间</th>
+            <th>
+              <div class="filter-container">
+                <div class="filter-btn">
+                  类型 <span class="filter-badge"></span><span class="icon">▼</span>
+                </div>
+                <div class="filter-popup">
+                  <div class="filter-options" id="filter-level" data-filter-key="level"></div>
+                </div>
+              </div>
+            </th>
+            <th>
+              <div class="filter-container">
+                <div class="filter-btn">
+                  开发者来源 <span class="filter-badge"></span><span class="icon">▼</span>
+                </div>
+                <div class="filter-popup">
+                  <div class="filter-options" id="filter-developer-source" data-filter-key="developer_source"></div>
+                </div>
+              </div>
+            </th>
+            <th><button class="sort-btn" data-sort-key="fans_count" type="button">粉丝</button></th>
+            <th><button class="sort-btn" data-sort-key="original_repo_count" type="button">原创仓库</button></th>
+            <th><button class="sort-btn" data-sort-key="total_contributions" type="button">年贡献</button></th>
+            <th><button class="sort-btn" data-sort-key="starred_repo_count" type="button">Star 的仓库数</button></th>
+            <th><button class="sort-btn" data-sort-key="star_time" type="button">Star 时间</button></th>
           </tr>
         </thead>
         <tbody id="user-tbody"></tbody>
@@ -348,11 +372,19 @@ const TYPE_LABELS = {
   d1: 'D1 贡献者',
   d2: 'D2 PR贡献者',
 };
+const DEVELOPER_SOURCE_LABELS = {
+  internal: '内部开发者',
+  external: '外部开发者',
+};
 
-const DATA_VER = '?v=20';
+const DATA_VER = '?v=21';
 async function loadJSON(path) {
   const r = await fetch(path + DATA_VER);
   return r.json();
+}
+async function loadText(path) {
+  const r = await fetch(path + DATA_VER);
+  return r.text();
 }
 
 // ── 主题系统 ──────────────────────────────────────────────
@@ -398,10 +430,11 @@ document.querySelectorAll('.tab').forEach(tab => {
 let repoTypeChart, repoTypeTimelineChart;
 
 async function main() {
-  const [repoConfig, repos, dlevelSummary, weeklyData, mrSummary, issueSummary] = await Promise.all([
+  const [repoConfig, repos, dlevelSummary, internalDeveloperText, weeklyData, mrSummary, issueSummary] = await Promise.all([
     loadJSON('config/repos.json'),
     loadJSON('data/repos.json'),
     loadJSON('data/dlevel_summary.json'),
+    loadText('config/internal_developers.txt'),
     loadJSON('data/weekly_activity.json').catch(() => null),
     loadJSON('data/mr_summary.json').catch(() => null),
     loadJSON('data/issue_summary.json').catch(() => null),
@@ -415,6 +448,12 @@ async function main() {
   const repoUserMap = dlevelSummary.repo_users || {};
   const repoCounts = dlevelSummary.repo_counts || {};
   const globalCounts = dlevelSummary.global_counts || { d0: 0, d1: 0, d2: 0, total: 0 };
+  const internalDeveloperSet = new Set(
+    internalDeveloperText
+      .split(/\r?\n/)
+      .map(name => name.trim())
+      .filter(name => name && !name.startsWith('#'))
+  );
 
   // ════════════════════════════════════════════════════════
   // 概览面板
@@ -792,10 +831,14 @@ async function main() {
   // ════════════════════════════════════════════════════════
   // 仓库详情面板
   // ════════════════════════════════════════════════════════
-  let currentFilter = 'all';
   let currentPage   = 1;
   const PAGE_SIZE   = 20;
   let currentRepoUsers = [];
+  let activeFilters = {
+    level: new Set(),
+    developer_source: new Set(),
+  };
+  let sortState = { key: null, direction: 'asc' };
 
   // 加载各仓库 star 时间数据
   const starTimeMap = {}; // repo_path → { user_name → created_at }
@@ -864,8 +907,9 @@ async function main() {
     })).sort((a, b) => (b.star_time || '') < (a.star_time || '') ? -1 : 1);
 
     currentRepoUsers = repoUsers;
-    currentFilter    = 'all';
     currentPage      = 1;
+    resetUserFilters();
+    sortState = { key: null, direction: 'asc' };
 
     const summaryCounts = repoCounts[repoPath];
     const tc = summaryCounts ? {
@@ -1174,41 +1218,123 @@ async function main() {
     }
 
     // 用户列表
-    document.querySelectorAll('.filter-btn').forEach(btn => {
-      btn.classList.toggle('active', btn.dataset.type === 'all');
-    });
+    populateUserFilterOptions();
+    updateSortButtonLabels();
     renderUserTable();
   }
 
+  function getDeveloperSource(user) {
+    return internalDeveloperSet.has(user.user_name) ? 'internal' : 'external';
+  }
+
+  function getStarredRepoCount(user) {
+    if (Array.isArray(user.starred_repos)) return user.starred_repos.length;
+    return user.sources?.includes('fork') ? 0 : null;
+  }
+
+  function getUserFieldValue(user, key) {
+    if (key === 'level') return user.level || 'd0';
+    if (key === 'developer_source') return getDeveloperSource(user);
+    if (key === 'starred_repo_count') return getStarredRepoCount(user);
+    return user[key] ?? null;
+  }
+
+  function getFilterLabel(key, value) {
+    if (key === 'level') return TYPE_LABELS[value] || value;
+    if (key === 'developer_source') return DEVELOPER_SOURCE_LABELS[value] || value;
+    return value || '-';
+  }
+
+  function resetUserFilters() {
+    activeFilters = {
+      level: new Set(),
+      developer_source: new Set(),
+    };
+    document.querySelectorAll('.filter-badge').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active-filter'));
+    document.querySelectorAll('.filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+  }
+
+  function populateSelectOptions(container, values, key) {
+    container.innerHTML = values.map(value => {
+      const label = getFilterLabel(key, value);
+      const valStr = String(value).replace(/"/g, '&quot;');
+      const isChecked = activeFilters[key] && activeFilters[key].has(valStr) ? 'checked' : '';
+      return `<label class="filter-option-label"><input type="checkbox" value="${valStr}" ${isChecked}> ${label}</label>`;
+    }).join('');
+  }
+
+  function populateUserFilterOptions() {
+    [
+      ['filter-level', 'level'],
+      ['filter-developer-source', 'developer_source'],
+    ].forEach(([id, key]) => {
+      const values = [...new Set(currentRepoUsers.map(user => getUserFieldValue(user, key)).filter(value => value !== null && value !== ''))];
+      values.sort((a, b) => getFilterLabel(key, a).localeCompare(getFilterLabel(key, b), 'zh-Hans-CN'));
+      populateSelectOptions(document.getElementById(id), values, key);
+    });
+  }
+
+  function matchesActiveFilters(user) {
+    return Object.entries(activeFilters).every(([key, selected]) => {
+      if (!selected.size) return true;
+      return selected.has(String(getUserFieldValue(user, key) ?? ''));
+    });
+  }
+
+  function sortUsers(users) {
+    if (!sortState.key) return users;
+    const direction = sortState.direction === 'asc' ? 1 : -1;
+    return [...users].sort((a, b) => {
+      const av = getUserFieldValue(a, sortState.key);
+      const bv = getUserFieldValue(b, sortState.key);
+      if (sortState.key === 'star_time') {
+        const at = av ? Date.parse(av) : 0;
+        const bt = bv ? Date.parse(bv) : 0;
+        return (at - bt) * direction;
+      }
+      return (((Number(av) || 0) - (Number(bv) || 0)) * direction);
+    });
+  }
+
+  function updateSortButtonLabels() {
+    document.querySelectorAll('.sort-btn').forEach(btn => {
+      const base = btn.textContent.replace(/\s*[↑↓]$/u, '');
+      const active = btn.dataset.sortKey === sortState.key;
+      btn.classList.toggle('active', active);
+      btn.textContent = active ? `${base} ${sortState.direction === 'asc' ? '↑' : '↓'}` : base;
+    });
+  }
+
   function renderUserTable() {
-    console.log('filter:', currentFilter, 'total users:', currentRepoUsers.length,
-      'sample type:', currentRepoUsers[0]?.level);
-    const filtered = currentFilter === 'all'
-      ? currentRepoUsers
-      : currentRepoUsers.filter(u => (u.level || 'd0') === currentFilter);
+    const filtered = sortUsers(currentRepoUsers.filter(matchesActiveFilters));
 
     const total = filtered.length;
     const totalPages = Math.ceil(total / PAGE_SIZE);
     const start = (currentPage - 1) * PAGE_SIZE;
     const page  = filtered.slice(start, start + PAGE_SIZE);
+    const hasFilter = Object.values(activeFilters).some(selected => selected.size > 0);
 
     document.getElementById('user-list-title').textContent =
-      `仓库用户列表（${total} 位${currentFilter !== 'all' ? ' · 已筛选' : ''}）`;
+      `仓库用户列表（${total} 位${hasFilter ? ' · 已筛选' : ''}${sortState.key ? ' · 已排序' : ''}）`;
 
     const tbody = document.getElementById('user-tbody');
     tbody.innerHTML = page.map((u, i) => {
       const p = u;
       const type = u.level || 'd0';
+      const developerSource = getDeveloperSource(u);
       const time = u.star_time ? u.star_time.slice(0, 10) : '-';
+      const starredRepoCount = getStarredRepoCount(u);
       return `<tr>
         <td style="color:var(--text-4)">${start + i + 1}</td>
         <td><a class="user-link" href="https://gitcode.com/${u.user_name}" target="_blank">${u.user_name}</a></td>
         <td style="color:var(--text-2)">${u.nick_name || '-'}</td>
         <td><span class="badge badge-${type}">${TYPE_LABELS[type]}</span></td>
+        <td><span class="badge badge-source-${developerSource}">${DEVELOPER_SOURCE_LABELS[developerSource]}</span></td>
         <td>${p?.fans_count ?? '-'}</td>
         <td>${p?.original_repo_count ?? '-'}</td>
         <td>${p?.total_contributions ?? '-'}</td>
-        <td>${u.starred_repos?.length ?? (u.sources?.includes('fork') ? 0 : '-')}</td>
+        <td>${starredRepoCount ?? '-'}</td>
         <td style="color:var(--text-3);font-size:12px">${time}</td>
       </tr>`;
     }).join('');
@@ -1231,14 +1357,62 @@ async function main() {
     });
   }
 
-  // 筛选按钮
-  document.getElementById('filter-btns').addEventListener('click', e => {
+  // 筛选下拉菜单交互
+  document.addEventListener('click', e => {
     const btn = e.target.closest('.filter-btn');
+    if (btn) {
+      const container = btn.closest('.filter-container');
+      const wasActive = container.classList.contains('active');
+      document.querySelectorAll('.filter-container').forEach(c => c.classList.remove('active'));
+      if (!wasActive) container.classList.add('active');
+    } else if (!e.target.closest('.filter-popup')) {
+      document.querySelectorAll('.filter-container').forEach(c => c.classList.remove('active'));
+    }
+  });
+
+  document.querySelectorAll('.filter-options').forEach(container => {
+    container.addEventListener('change', () => {
+      const key = container.dataset.filterKey;
+      const checked = container.querySelectorAll('input:checked');
+      activeFilters[key] = new Set([...checked].map(cb => cb.value));
+      
+      const badge = container.closest('.filter-container').querySelector('.filter-badge');
+      const btn = container.closest('.filter-container').querySelector('.filter-btn');
+      if (checked.length > 0) {
+        badge.textContent = checked.length;
+        badge.classList.add('active');
+        btn.classList.add('active-filter');
+      } else {
+        badge.classList.remove('active');
+        btn.classList.remove('active-filter');
+      }
+
+      currentPage = 1;
+      renderUserTable();
+    });
+  });
+
+  // 排序按钮
+  document.querySelector('.user-table thead').addEventListener('click', e => {
+    const btn = e.target.closest('.sort-btn');
     if (!btn) return;
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    currentFilter = btn.dataset.type;
-    currentPage   = 1;
+    const key = btn.dataset.sortKey;
+    
+    // Tri-state sorting: asc -> desc -> null (none)
+    if (sortState.key === key) {
+      if (sortState.direction === 'asc') {
+        sortState.direction = 'desc';
+      } else {
+        sortState.key = null;
+        sortState.direction = 'asc';
+      }
+    } else {
+      sortState.key = key;
+      sortState.direction = 'asc';
+    }
+    
+    currentPage = 1;
+    updateSortButtonLabels();
     renderUserTable();
   });
 
@@ -1255,6 +1429,17 @@ async function main() {
     applyThemeAttr();
     renderOverviewCharts();
     // 若仓库详情面板已打开，同步重渲仓库图表
+    if (document.getElementById('panel-repo').classList.contains('active')) {
+      renderRepo(select.value);
+    }
+  });
+}
+
+main().catch(console.error);
+</script>
+</body>
+</html>
+渲仓库图表
     if (document.getElementById('panel-repo').classList.contains('active')) {
       renderRepo(select.value);
     }
