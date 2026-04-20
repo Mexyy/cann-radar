@@ -10423,7 +10423,7 @@
           "cann/hixl",
           "cann/graph-autofusion"
         ],
-        "developer_source": "external"
+        "developer_source": "internal"
       },
       {
         "user_name": "yanan-rock",
@@ -20240,7 +20240,7 @@
           "cann/hixl",
           "cann/graph-autofusion"
         ],
-        "developer_source": "external"
+        "developer_source": "internal"
       },
       {
         "user_name": "yanglianxiang2",
@@ -27498,7 +27498,7 @@
           "cann/hixl",
           "cann/graph-autofusion"
         ],
-        "developer_source": "external"
+        "developer_source": "internal"
       },
       {
         "user_name": "yangbinhua",
