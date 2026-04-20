@@ -377,7 +377,7 @@ const DEVELOPER_SOURCE_LABELS = {
   external: '外部开发者',
 };
 
-const DATA_VER = '?v=21';
+const DATA_VER = '?v=22';
 async function loadJSON(path) {
   const r = await fetch(path + DATA_VER);
   return r.json();
@@ -923,6 +923,13 @@ async function main() {
         tc[t] = (tc[t] || 0) + 1;
       });
     }
+    const externalTypeCounts = { d0: 0, d1: 0, d2: 0 };
+    repoUsers.forEach(user => {
+      if (getDeveloperSource(user) === 'external') {
+        const type = user.level || 'd0';
+        externalTypeCounts[type] = (externalTypeCounts[type] || 0) + 1;
+      }
+    });
 
     // 基本指标
     document.getElementById('repo-stats').innerHTML = [
@@ -946,8 +953,8 @@ async function main() {
       const metric = (goal.metric || '').toLowerCase();
       const values = {
         star: { current: repo.star_count || 0, display: '⭐', unit: 'Star' },
-        d1: { current: tc.d1 || 0, display: 'D1', unit: '人' },
-        d2: { current: tc.d2 || 0, display: 'D2', unit: '人' },
+        d1: { current: externalTypeCounts.d1 || 0, display: '外部D1', unit: '人' },
+        d2: { current: externalTypeCounts.d2 || 0, display: '外部D2', unit: '人' },
       };
       return values[metric] || {
         current: 0,

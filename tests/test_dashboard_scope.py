@@ -39,6 +39,9 @@ class DashboardScopeTests(unittest.TestCase):
         self.assertEqual(goals['cann/graph-autofusion']['d2']['targets'][2]['target'], 30)
         self.assertEqual(goals['cann/hixl']['d1']['targets'][1]['target'], 150)
         self.assertEqual(goals['cann/torchtitan-npu']['d1']['targets'][0]['target'], 100)
+        for repo_goals in goals.values():
+            self.assertEqual(repo_goals['d1']['label'], '外部D1 开发者数量')
+            self.assertEqual(repo_goals['d2']['label'], '外部D2 开发者数量')
 
     def test_repos_json_only_contains_requested_repos(self):
         repos = json.loads((ROOT / 'data' / 'repos.json').read_text(encoding='utf-8'))
@@ -64,6 +67,10 @@ class DashboardScopeTests(unittest.TestCase):
         self.assertIn('repoConfigMap', html)
         self.assertNotIn('operation_metrics', html)
         self.assertIn('getGoalMetricValue', html)
+        self.assertIn('externalTypeCounts', html)
+        self.assertIn("getDeveloperSource(user) === 'external'", html)
+        self.assertIn("d1: { current: externalTypeCounts.d1 || 0, display: '外部D1'", html)
+        self.assertIn("d2: { current: externalTypeCounts.d2 || 0, display: '外部D2'", html)
         self.assertIn('formatMetricTargetLabel', html)
         self.assertIn('运营目标', html)
 

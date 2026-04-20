@@ -15,7 +15,7 @@
         },
         {
           "metric": "d1",
-          "label": "D1 开发者数量",
+          "label": "外部D1 开发者数量",
           "targets": [
             { "date": "2026-06-30", "target": 60 },
             { "date": "2026-09-30", "target": 130 },
@@ -24,7 +24,7 @@
         },
         {
           "metric": "d2",
-          "label": "D2 开发者数量",
+          "label": "外部D2 开发者数量",
           "targets": [
             { "date": "2026-06-30", "target": 6 },
             { "date": "2026-09-30", "target": 13 },
@@ -47,7 +47,7 @@
         },
         {
           "metric": "d1",
-          "label": "D1 开发者数量",
+          "label": "外部D1 开发者数量",
           "targets": [
             { "date": "2026-06-30", "target": 60 },
             { "date": "2026-09-30", "target": 150 },
@@ -56,7 +56,7 @@
         },
         {
           "metric": "d2",
-          "label": "D2 开发者数量",
+          "label": "外部D2 开发者数量",
           "targets": [
             { "date": "2026-06-30", "target": 10 },
             { "date": "2026-09-30", "target": 20 },
@@ -79,7 +79,7 @@
         },
         {
           "metric": "d1",
-          "label": "D1 开发者数量",
+          "label": "外部D1 开发者数量",
           "targets": [
             { "date": "2026-06-30", "target": 80 },
             { "date": "2026-09-30", "target": 150 },
@@ -88,7 +88,7 @@
         },
         {
           "metric": "d2",
-          "label": "D2 开发者数量",
+          "label": "外部D2 开发者数量",
           "targets": [
             { "date": "2026-06-30", "target": 10 },
             { "date": "2026-09-30", "target": 20 },
@@ -111,7 +111,7 @@
         },
         {
           "metric": "d1",
-          "label": "D1 开发者数量",
+          "label": "外部D1 开发者数量",
           "targets": [
             { "date": "2026-06-30", "target": 100 },
             { "date": "2026-09-30", "target": 150 },
@@ -120,7 +120,7 @@
         },
         {
           "metric": "d2",
-          "label": "D2 开发者数量",
+          "label": "外部D2 开发者数量",
           "targets": [
             { "date": "2026-06-30", "target": 10 },
             { "date": "2026-09-30", "target": 20 },
@@ -143,7 +143,7 @@
         },
         {
           "metric": "d1",
-          "label": "D1 开发者数量",
+          "label": "外部D1 开发者数量",
           "targets": [
             { "date": "2026-06-30", "target": 100 },
             { "date": "2026-09-30", "target": 150 },
@@ -152,7 +152,7 @@
         },
         {
           "metric": "d2",
-          "label": "D2 开发者数量",
+          "label": "外部D2 开发者数量",
           "targets": [
             { "date": "2026-06-30", "target": 10 },
             { "date": "2026-09-30", "target": 20 },
