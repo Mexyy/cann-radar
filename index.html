@@ -424,6 +424,7 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js"></script>
 <script>
 const COLORS = {
   d0: '#4ecdc4',
@@ -447,6 +448,11 @@ const DATA_VER = '?v=27';
 async function loadJSON(path) {
   const r = await fetch(path + DATA_VER);
   return r.json();
+}
+
+async function loadYAML(path) {
+  const r = await fetch(path + DATA_VER);
+  return jsyaml.load(await r.text());
 }
 // ── 主题系统 ──────────────────────────────────────────────
 let currentTheme = localStorage.getItem('theme') || 'dark';
@@ -492,7 +498,7 @@ let repoTypeChart, repoTypeTimelineChart, discussionTrendChart;
 
 async function main() {
   const [repoConfig, repos, dlevelSummary, weeklyData, mrSummary, issueSummary, discussionData] = await Promise.all([
-    loadJSON('config/repos.json'),
+    loadYAML('config/repos.yml'),
     loadJSON('data/repos.json'),
     loadJSON('data/dlevel_summary.json'),
     loadJSON('data/weekly_activity.json').catch(() => null),

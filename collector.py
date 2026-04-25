@@ -27,6 +27,7 @@ import sys
 import urllib.request
 import urllib.parse
 import urllib.error
+import yaml
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
@@ -40,9 +41,9 @@ if sys.platform == "win32":
 
 BASE_URL = "https://web-api.gitcode.com"
 DISCUSS_BASE = "https://web-api.gitcode.com/api/v1/discuss"
-CONFIG_PATH = Path("config/repos.json")
+CONFIG_PATH = Path("config/repos.yml")
 INTERNAL_DEVELOPERS_PATH = Path("config/internal_developers.txt")
-DISCUSSIONS_CONFIG_PATH = Path("config/discussions.json")
+DISCUSSIONS_CONFIG_PATH = Path("config/discussions.yml")
 DATA_DIR = Path("data")
 DATA_DIR.mkdir(exist_ok=True)
 DISCUSSION_PARTICIPANTS_PATH = DATA_DIR / "discussion_participants.json"
@@ -67,10 +68,10 @@ def load_internal_developers():
 def load_repo_config():
     if not CONFIG_PATH.exists():
         raise FileNotFoundError(f"缺少配置文件: {CONFIG_PATH}")
-    config = load_json(CONFIG_PATH) or {"repos": []}
+    config = load_config(CONFIG_PATH) or {"repos": []}
     repos = config.get("repos", [])
     if not repos:
-        raise ValueError("config/repos.json 中未配置任何仓库")
+        raise ValueError("config/repos.yml 中未配置任何仓库")
     return repos
 
 
@@ -87,12 +88,12 @@ def parse_discussion_url(url):
 
 
 def load_discussion_config():
-    """读取 config/discussions.json，返回启用的讨论列表。"""
+    """读取 config/discussions.yml，返回启用的讨论列表。"""
     cfg_path = DISCUSSIONS_CONFIG_PATH
     if not cfg_path.exists():
         print(f"  ⚠ 未找到 {cfg_path}，跳过讨论参与者采集")
         return []
-    raw = load_json(cfg_path) or {}
+    raw = load_config(cfg_path) or {}
     items = raw.get("discussions", []) or []
     out = []
     for item in items:
@@ -173,6 +174,16 @@ def load_json(path):
     if not path.exists():
         return None
     with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def load_config(path):
+    """读取 YAML/JSON 配置文件。YAML 是当前推荐格式，JSON 用于兼容旧测试或临时文件。"""
+    if not path.exists():
+        return None
+    with open(path, encoding="utf-8") as f:
+        if path.suffix.lower() in {".yml", ".yaml"}:
+            return yaml.safe_load(f)
         return json.load(f)
 
 
@@ -465,7 +476,7 @@ def build_discussion_participants_summary(discussions, internal_developers=None,
 
 
 def collect_discussion_participants():
-    """采集 config/discussions.json 中所有启用讨论的参与者并写入 data/discussion_participants.json。"""
+    """采集 config/discussions.yml 中所有启用讨论的参与者并写入 data/discussion_participants.json。"""
     print("\n=== 步骤：采集 GitCode 讨论参与者 ===")
     discussions_cfg = load_discussion_config()
     if not discussions_cfg:

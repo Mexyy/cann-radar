@@ -1,4 +1,5 @@
 import json
+import yaml
 import unittest
 from pathlib import Path
 
@@ -7,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class DashboardScopeTests(unittest.TestCase):
     def test_repo_config_contains_requested_repos_and_unified_goals(self):
-        cfg = json.loads((ROOT / 'config' / 'repos.json').read_text(encoding='utf-8'))
+        cfg = yaml.safe_load((ROOT / 'config' / 'repos.yml').read_text(encoding='utf-8'))
         repos = cfg['repos']
         enabled_paths = [repo['path'] for repo in repos if repo.get('enabled', True)]
         self.assertEqual(enabled_paths, [
@@ -38,7 +39,7 @@ class DashboardScopeTests(unittest.TestCase):
         self.assertEqual(goals['cann/ge']['d1']['targets'][1]['target'], 130)
         self.assertEqual(goals['cann/graph-autofusion']['d2']['targets'][2]['target'], 30)
         self.assertEqual(goals['cann/hixl']['d1']['targets'][1]['target'], 150)
-        self.assertEqual(goals['cann/torchtitan-npu']['d1']['targets'][0]['target'], 100)
+        self.assertEqual(goals['cann/torchtitan-npu']['d1']['targets'][0]['target'], 50)
         for repo_goals in goals.values():
             self.assertEqual(repo_goals['d1']['label'], '外部D1 开发者数量')
             self.assertEqual(repo_goals['d2']['label'], '外部D2 开发者数量')
@@ -56,13 +57,13 @@ class DashboardScopeTests(unittest.TestCase):
 
     def test_collector_uses_config_file_for_repo_scope(self):
         collector = (ROOT / 'collector.py').read_text(encoding='utf-8')
-        self.assertIn('config/repos.json', collector)
+        self.assertIn('config/repos.yml', collector)
         self.assertIn('load_repo_config', collector)
         self.assertIn('active_repo_paths', collector)
 
     def test_dashboard_reads_goals_from_config_data_not_hardcoded_constant(self):
         html = (ROOT / 'index.html').read_text(encoding='utf-8')
-        self.assertIn("loadJSON('config/repos.json')", html)
+        self.assertIn("loadYAML('config/repos.yml')", html)
         self.assertNotIn('const REPO_GOALS = {', html)
         self.assertIn('repoConfigMap', html)
         self.assertNotIn('operation_metrics', html)
