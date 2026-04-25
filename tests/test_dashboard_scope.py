@@ -74,6 +74,19 @@ class DashboardScopeTests(unittest.TestCase):
         self.assertIn('formatMetricTargetLabel', html)
         self.assertIn('运营目标', html)
 
+    def test_dashboard_has_dedicated_community_discussion_tab(self):
+        html = (ROOT / 'index.html').read_text(encoding='utf-8')
+        self.assertIn('<div class="tab" data-panel="discussion">社区讨论</div>', html)
+        self.assertIn('<div class="panel" id="panel-discussion">', html)
+
+        overview_start = html.index('<div class="panel active" id="panel-overview">')
+        repo_start = html.index('<div class="panel" id="panel-repo">')
+        discussion_panel_start = html.index('<div class="panel" id="panel-discussion">')
+        discussion_section_start = html.index('id="discussion-section"')
+
+        self.assertNotIn('id="discussion-section"', html[overview_start:repo_start])
+        self.assertGreater(discussion_section_start, discussion_panel_start)
+
     def test_internal_developers_list_is_gitignored(self):
         # 名单通过私仓 / CI Secret 注入；本地可存在，但必须被 gitignore
         gitignore = (ROOT / '.gitignore').read_text(encoding='utf-8')

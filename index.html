@@ -247,6 +247,7 @@
 <div class="tabs">
   <div class="tab active" data-panel="overview">组织概览</div>
   <div class="tab" data-panel="repo">仓库详情</div>
+  <div class="tab" data-panel="discussion">社区讨论</div>
 </div>
 
 <!-- 概览面板 -->
@@ -281,25 +282,6 @@
         </span>
       </h2>
       <div class="chart" id="chart-repo-composition" style="height:440px"></div>
-    </div>
-    <div class="chart-box chart-wide" id="discussion-section" style="display:none">
-      <h2>参与讨论的外部开发者</h2>
-      <div class="discussion-summary" id="discussion-summary"></div>
-      <div class="discussion-meta" id="discussion-meta"></div>
-      <div class="chart" id="chart-discussion-trend" style="height:260px"></div>
-
-      <div class="discussion-block">
-        <h3 class="discussion-subhead">相关讨论帖 <span id="discussion-list-count" class="discussion-subcount"></span></h3>
-        <ul class="discussion-list" id="discussion-list"></ul>
-      </div>
-
-      <div class="discussion-block">
-        <div class="user-list-header">
-          <h3 class="discussion-subhead" id="discussion-users-title">外部开发者名单</h3>
-        </div>
-        <div class="user-card-grid" id="discussion-user-cards"></div>
-        <div class="pagination" id="discussion-pagination"></div>
-      </div>
     </div>
     <div class="chart-box chart-wide" id="weekly-activity-box" style="display:none">
       <h2>各仓库 MR 周活跃度热力图 <span style="font-size:11px;font-weight:400;color:#555;margin-left:6px">按周统计 MR 新建数，最多显示近 26 周</span></h2>
@@ -416,6 +398,31 @@
   </div>
 </div>
 
+<!-- 社区讨论面板 -->
+<div class="panel" id="panel-discussion">
+  <div class="charts">
+    <div class="chart-box chart-wide" id="discussion-section" style="display:none">
+      <h2>参与讨论的外部开发者</h2>
+      <div class="discussion-summary" id="discussion-summary"></div>
+      <div class="discussion-meta" id="discussion-meta"></div>
+      <div class="chart" id="chart-discussion-trend" style="height:260px"></div>
+
+      <div class="discussion-block">
+        <h3 class="discussion-subhead">相关讨论帖 <span id="discussion-list-count" class="discussion-subcount"></span></h3>
+        <ul class="discussion-list" id="discussion-list"></ul>
+      </div>
+
+      <div class="discussion-block">
+        <div class="user-list-header">
+          <h3 class="discussion-subhead" id="discussion-users-title">外部开发者名单</h3>
+        </div>
+        <div class="user-card-grid" id="discussion-user-cards"></div>
+        <div class="pagination" id="discussion-pagination"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
 <script>
 const COLORS = {
@@ -475,13 +482,13 @@ document.querySelectorAll('.tab').forEach(tab => {
     document.getElementById('panel-' + tab.dataset.panel).classList.add('active');
     // 切换到仓库详情时，强制 resize 所有仓库图表
     setTimeout(() => {
-      [repoTypeChart, repoTypeTimelineChart].forEach(c => c && c.resize());
+      [repoTypeChart, repoTypeTimelineChart, discussionTrendChart].forEach(c => c && c.resize());
       window.dispatchEvent(new Event('resize'));
     }, 50);
   });
 });
 
-let repoTypeChart, repoTypeTimelineChart;
+let repoTypeChart, repoTypeTimelineChart, discussionTrendChart;
 
 async function main() {
   const [repoConfig, repos, dlevelSummary, weeklyData, mrSummary, issueSummary, discussionData] = await Promise.all([
@@ -914,8 +921,8 @@ async function main() {
     const dates = trend.map(t => t.date);
     const externalSeries = trend.map(t => t.external_count || 0);
     const totalSeries = trend.map(t => t.total_unique_participants || 0);
-    const chart = makeChart('chart-discussion-trend');
-    chart.setOption({
+    discussionTrendChart = makeChart('chart-discussion-trend');
+    discussionTrendChart.setOption({
       tooltip: {
         trigger: 'axis',
         formatter: params => {
@@ -934,7 +941,7 @@ async function main() {
         { name: '总参与者', type: 'line', smooth: true, symbol: 'circle', symbolSize: 6, data: totalSeries, itemStyle: { color: COLORS.d1 } },
       ],
     });
-    window.addEventListener('resize', () => chart.resize());
+    window.addEventListener('resize', () => discussionTrendChart.resize());
 
     // 纳入统计的讨论列表
     const discussions = discussionData.discussions || [];
