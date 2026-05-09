@@ -1,5 +1,13 @@
 [
   {
+    "iid": 2692,
+    "state": "opened",
+    "created_at": "2026-05-09",
+    "merged_at": "",
+    "closed_at": "",
+    "author": "isaacxu"
+  },
+  {
     "iid": 2691,
     "state": "opened",
     "created_at": "2026-05-09",
@@ -3185,10 +3193,10 @@
   },
   {
     "iid": 2291,
-    "state": "opened",
+    "state": "closed",
     "created_at": "2026-04-25",
     "merged_at": "",
-    "closed_at": "",
+    "closed_at": "2026-05-09",
     "author": "isaacxu"
   },
   {
@@ -7337,10 +7345,10 @@
   },
   {
     "iid": 1768,
-    "state": "opened",
+    "state": "closed",
     "created_at": "2026-04-07",
     "merged_at": "",
-    "closed_at": "",
+    "closed_at": "2026-05-09",
     "author": "isaacxu"
   },
   {
@@ -7929,10 +7937,10 @@
   },
   {
     "iid": 1693,
-    "state": "opened",
+    "state": "closed",
     "created_at": "2026-04-01",
     "merged_at": "",
-    "closed_at": "",
+    "closed_at": "2026-05-09",
     "author": "isaacxu"
   },
   {
