@@ -2,3 +2,6 @@ discussions:
 - url: https://gitcode.com/org/cann/discussions/85
   enabled: true
   label: DeepSeek V4 讨论
+- url: https://gitcode.com/cann/torchtitan-npu/discussions/1
+  enabled: true
+  label: TorchTitan-NPU:训练性能与易用性齐飞，解锁昇腾训练入图新体验
