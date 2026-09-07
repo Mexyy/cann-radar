@@ -1,5 +1,106 @@
 [
   {
+    "user_name": "weixin_75182303",
+    "nick_name": "youqi",
+    "starred_repos": [
+      "cann/ge",
+      "cann/hixl",
+      "cann/graph-autofusion",
+      "cann/torchtitan-npu",
+      "cann/metadef",
+      "cann/tensorflow",
+      "cann/triton-inference-server-ge-backend"
+    ],
+    "user_type": "star_enthusiast",
+    "fans_count": 0,
+    "original_repo_count": 0,
+    "total_contributions": 0,
+    "developer_source": "external"
+  },
+  {
+    "user_name": "dadage654",
+    "nick_name": "dadage654",
+    "starred_repos": [
+      "cann/ge",
+      "cann/graph-autofusion",
+      "cann/torchtitan-npu",
+      "cann/tensorflow"
+    ],
+    "user_type": "star_enthusiast",
+    "fans_count": 0,
+    "original_repo_count": 0,
+    "total_contributions": 0,
+    "developer_source": "external"
+  },
+  {
+    "user_name": "gcw_WJCkAUuk",
+    "nick_name": "jiyg",
+    "starred_repos": [
+      "cann/ge",
+      "cann/hixl",
+      "cann/graph-autofusion",
+      "cann/torchtitan-npu",
+      "cann/metadef",
+      "cann/tensorflow",
+      "cann/triton-inference-server-ge-backend"
+    ],
+    "user_type": "developer",
+    "fans_count": 0,
+    "original_repo_count": 1,
+    "total_contributions": 40,
+    "developer_source": "external"
+  },
+  {
+    "user_name": "roderickkong",
+    "nick_name": "roderick",
+    "starred_repos": [
+      "cann/ge",
+      "cann/hixl",
+      "cann/graph-autofusion",
+      "cann/torchtitan-npu",
+      "cann/metadef",
+      "cann/tensorflow",
+      "cann/triton-inference-server-ge-backend"
+    ],
+    "user_type": "developer",
+    "fans_count": 0,
+    "original_repo_count": 1,
+    "total_contributions": 73,
+    "developer_source": "external"
+  },
+  {
+    "user_name": "u011078141",
+    "nick_name": "opengood",
+    "starred_repos": [
+      "cann/ge",
+      "cann/hixl",
+      "cann/graph-autofusion"
+    ],
+    "user_type": "star_enthusiast",
+    "fans_count": 0,
+    "original_repo_count": 3,
+    "total_contributions": 0,
+    "developer_source": "external"
+  },
+  {
+    "user_name": "ZTCNO0NE",
+    "nick_name": "ZTCNO0NE",
+    "starred_repos": [
+      "cann/ge",
+      "cann/hixl",
+      "cann/graph-autofusion",
+      "cann/torchtitan-npu",
+      "cann/metadef",
+      "cann/tensorflow",
+      "cann/triton-inference-server-ge-backend"
+    ],
+    "user_type": "star_enthusiast",
+    "fans_count": 0,
+    "original_repo_count": 0,
+    "total_contributions": 0,
+    "developer_source": "external"
+  },
+  {
     "user_name": "z3336",
     "nick_name": "z3336",
     "starred_repos": [
@@ -10074,7 +10175,7 @@
     "developer_source": "internal"
   },
   {
-    "user_name": "gcw_YbzCc3Pl",
+    "user_name": "SunShijun",
     "nick_name": "SunShijun",
     "starred_repos": [
       "cann/hixl",
@@ -15537,6 +15638,18 @@
     "developer_source": "internal"
   },
   {
+    "user_name": "jwcjtnllm",
+    "nick_name": "jwcjtnllm",
+    "starred_repos": [
+      "cann/graph-autofusion"
+    ],
+    "user_type": "contributor",
+    "fans_count": 0,
+    "original_repo_count": 0,
+    "total_contributions": 10,
+    "developer_source": "external"
+  },
+  {
     "user_name": "gcw_PiNDQpP1",
     "nick_name": "qq_08",
     "starred_repos": [
@@ -17364,6 +17477,18 @@
     "original_repo_count": 1,
     "total_contributions": 923,
     "developer_source": "internal"
+  },
+  {
+    "user_name": "L_kx",
+    "nick_name": "L_kx",
+    "starred_repos": [
+      "cann/torchtitan-npu"
+    ],
+    "user_type": "die_hard_fan",
+    "fans_count": 0,
+    "original_repo_count": 0,
+    "total_contributions": 0,
+    "developer_source": "external"
   },
   {
     "user_name": "qq_43318958",
@@ -20590,18 +20715,6 @@
     "developer_source": "external"
   },
   {
-    "user_name": "gcw_WJCkAUuk",
-    "nick_name": "jiyg",
-    "starred_repos": [
-      "cann/tensorflow"
-    ],
-    "user_type": "developer",
-    "fans_count": 0,
-    "original_repo_count": 1,
-    "total_contributions": 40,
-    "developer_source": "external"
-  },
-  {
     "user_name": "gcw_VHEfY7e7",
     "nick_name": "gcw_VHEfY7e7",
     "starred_repos": [
@@ -20660,6 +20773,18 @@
     "original_repo_count": 1,
     "total_contributions": 952,
     "developer_source": "internal"
+  },
+  {
+    "user_name": "mulong933",
+    "nick_name": "mulong933",
+    "starred_repos": [
+      "Ascend/torchair"
+    ],
+    "user_type": "developer",
+    "fans_count": 0,
+    "original_repo_count": 0,
+    "total_contributions": 1,
+    "developer_source": "external"
   },
   {
     "user_name": "LinHanforget",

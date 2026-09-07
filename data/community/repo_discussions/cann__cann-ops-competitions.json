@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-06",
+  "generated_at": "2026-09-07",
   "source_count": 18,
   "discussion_count": 18,
-  "external_count": 828,
+  "external_count": 833,
   "internal_count": 13,
-  "total_unique_participants": 841,
+  "total_unique_participants": 846,
   "trend": [
     {
-      "date": "2026-09-06",
-      "external_count": 828,
-      "total_unique_participants": 841
+      "date": "2026-09-07",
+      "external_count": 833,
+      "total_unique_participants": 846
     }
   ],
   "participants": [
@@ -920,6 +920,30 @@
       "last_seen_at": "2026-08-27T00:48:33+08:00"
     },
     {
+      "user_name": "bengnshen",
+      "nick_name": "",
+      "developer_source": "external",
+      "top_comments": 2,
+      "replies": 0,
+      "discussion_count": 2,
+      "discussions": [
+        {
+          "url": "https://gitcode.com/cann/cann-ops-competitions/discussions/19",
+          "title": "🎒 寻找 CANN竞赛搭子｜送社区 T 恤（9/12 截止，10% 中奖率、限量 20 个）",
+          "top_comments": 1,
+          "replies": 0
+        },
+        {
+          "url": "https://gitcode.com/cann/cann-ops-competitions/discussions/15",
+          "title": "【进行中】🎁CANN挑战赛（西南赛区）第二轮报名有奖（9.4~9.20）| 总共三轮",
+          "top_comments": 1,
+          "replies": 0
+        }
+      ],
+      "first_seen_at": "2026-09-05T23:02:44+08:00",
+      "last_seen_at": "2026-09-07T12:54:21+08:00"
+    },
+    {
       "user_name": "c2892480843s",
       "nick_name": "",
       "developer_source": "external",
@@ -1734,6 +1758,30 @@
       ],
       "first_seen_at": "2026-05-12T12:21:47+08:00",
       "last_seen_at": "2026-06-01T17:01:36+08:00"
+    },
+    {
+      "user_name": "qq_43754992",
+      "nick_name": "",
+      "developer_source": "external",
+      "top_comments": 2,
+      "replies": 0,
+      "discussion_count": 2,
+      "discussions": [
+        {
+          "url": "https://gitcode.com/cann/cann-ops-competitions/discussions/19",
+          "title": "🎒 寻找 CANN竞赛搭子｜送社区 T 恤（9/12 截止，10% 中奖率、限量 20 个）",
+          "top_comments": 1,
+          "replies": 0
+        },
+        {
+          "url": "https://gitcode.com/cann/cann-ops-competitions/discussions/18",
+          "title": "# 观看CANN 挑战赛-直播提问有礼｜ CANN社区书包（活动截止，中奖公示中）",
+          "top_comments": 1,
+          "replies": 0
+        }
+      ],
+      "first_seen_at": "2026-08-27T17:30:07+08:00",
+      "last_seen_at": "2026-09-07T18:50:31+08:00"
     },
     {
       "user_name": "QZRuoCheng",
@@ -2744,6 +2792,24 @@
       "last_seen_at": "2026-08-27T21:10:39+08:00"
     },
     {
+      "user_name": "RocRRR",
+      "nick_name": "",
+      "developer_source": "external",
+      "top_comments": 2,
+      "replies": 0,
+      "discussion_count": 1,
+      "discussions": [
+        {
+          "url": "https://gitcode.com/cann/cann-ops-competitions/discussions/15",
+          "title": "【进行中】🎁CANN挑战赛（西南赛区）第二轮报名有奖（9.4~9.20）| 总共三轮",
+          "top_comments": 2,
+          "replies": 0
+        }
+      ],
+      "first_seen_at": "2026-08-22T22:08:47+08:00",
+      "last_seen_at": "2026-09-07T21:31:09+08:00"
+    },
+    {
       "user_name": "shbab",
       "nick_name": "",
       "developer_source": "external",
@@ -3660,6 +3726,24 @@
       ],
       "first_seen_at": "2026-06-01T21:14:17+08:00",
       "last_seen_at": "2026-06-01T21:14:17+08:00"
+    },
+    {
+      "user_name": "2501_91592260",
+      "nick_name": "",
+      "developer_source": "external",
+      "top_comments": 1,
+      "replies": 0,
+      "discussion_count": 1,
+      "discussions": [
+        {
+          "url": "https://gitcode.com/cann/cann-ops-competitions/discussions/15",
+          "title": "【进行中】🎁CANN挑战赛（西南赛区）第二轮报名有奖（9.4~9.20）| 总共三轮",
+          "top_comments": 1,
+          "replies": 0
+        }
+      ],
+      "first_seen_at": "2026-09-07T14:11:25+08:00",
+      "last_seen_at": "2026-09-07T14:11:25+08:00"
     },
     {
       "user_name": "2501_91680852",
@@ -4740,24 +4824,6 @@
       ],
       "first_seen_at": "2026-06-01T17:41:11+08:00",
       "last_seen_at": "2026-06-01T17:41:11+08:00"
-    },
-    {
-      "user_name": "bengnshen",
-      "nick_name": "",
-      "developer_source": "external",
-      "top_comments": 1,
-      "replies": 0,
-      "discussion_count": 1,
-      "discussions": [
-        {
-          "url": "https://gitcode.com/cann/cann-ops-competitions/discussions/19",
-          "title": "🎒 寻找 CANN竞赛搭子｜送社区 T 恤（9/12 截止，10% 中奖率、限量 20 个）",
-          "top_comments": 1,
-          "replies": 0
-        }
-      ],
-      "first_seen_at": "2026-09-05T23:02:44+08:00",
-      "last_seen_at": "2026-09-05T23:02:44+08:00"
     },
     {
       "user_name": "biggest_smart",
@@ -6236,24 +6302,6 @@
       "last_seen_at": "2026-06-01T18:49:23+08:00"
     },
     {
-      "user_name": "fzx9527",
-      "nick_name": "",
-      "developer_source": "external",
-      "top_comments": 1,
-      "replies": 0,
-      "discussion_count": 1,
-      "discussions": [
-        {
-          "url": "https://gitcode.com/cann/cann-ops-competitions/discussions/16",
-          "title": "🎒 CANN挑战赛叫你来领书包啦｜8.31前报名抽奖（活动截止、中奖公示中）",
-          "top_comments": 1,
-          "replies": 0
-        }
-      ],
-      "first_seen_at": "2026-08-25T11:47:16+08:00",
-      "last_seen_at": "2026-08-25T11:47:16+08:00"
-    },
-    {
       "user_name": "gca_u2401_85892522",
       "nick_name": "",
       "developer_source": "external",
@@ -6632,6 +6680,24 @@
       "last_seen_at": "2026-08-17T19:16:24+08:00"
     },
     {
+      "user_name": "gcw_gJMz7Ioh",
+      "nick_name": "",
+      "developer_source": "external",
+      "top_comments": 1,
+      "replies": 0,
+      "discussion_count": 1,
+      "discussions": [
+        {
+          "url": "https://gitcode.com/cann/cann-ops-competitions/discussions/15",
+          "title": "【进行中】🎁CANN挑战赛（西南赛区）第二轮报名有奖（9.4~9.20）| 总共三轮",
+          "top_comments": 1,
+          "replies": 0
+        }
+      ],
+      "first_seen_at": "2026-09-07T07:22:29+08:00",
+      "last_seen_at": "2026-09-07T07:22:29+08:00"
+    },
+    {
       "user_name": "gcw_HGV7jxBu",
       "nick_name": "",
       "developer_source": "external",
@@ -6756,6 +6822,24 @@
       ],
       "first_seen_at": "2026-08-31T18:25:48+08:00",
       "last_seen_at": "2026-08-31T18:25:48+08:00"
+    },
+    {
+      "user_name": "gcw_lBO2CXZa",
+      "nick_name": "",
+      "developer_source": "external",
+      "top_comments": 1,
+      "replies": 0,
+      "discussion_count": 1,
+      "discussions": [
+        {
+          "url": "https://gitcode.com/cann/cann-ops-competitions/discussions/19",
+          "title": "🎒 寻找 CANN竞赛搭子｜送社区 T 恤（9/12 截止，10% 中奖率、限量 20 个）",
+          "top_comments": 1,
+          "replies": 0
+        }
+      ],
+      "first_seen_at": "2026-09-07T23:35:20+08:00",
+      "last_seen_at": "2026-09-07T23:35:20+08:00"
     },
     {
       "user_name": "gcw_LfkbusXr",
@@ -8016,6 +8100,24 @@
       ],
       "first_seen_at": "2026-08-15T23:22:17+08:00",
       "last_seen_at": "2026-08-15T23:22:17+08:00"
+    },
+    {
+      "user_name": "i686514750",
+      "nick_name": "",
+      "developer_source": "external",
+      "top_comments": 1,
+      "replies": 0,
+      "discussion_count": 1,
+      "discussions": [
+        {
+          "url": "https://gitcode.com/cann/cann-ops-competitions/discussions/19",
+          "title": "🎒 寻找 CANN竞赛搭子｜送社区 T 恤（9/12 截止，10% 中奖率、限量 20 个）",
+          "top_comments": 1,
+          "replies": 0
+        }
+      ],
+      "first_seen_at": "2026-09-07T08:14:27+08:00",
+      "last_seen_at": "2026-09-07T08:14:27+08:00"
     },
     {
       "user_name": "ijustlikewwei",
@@ -10124,6 +10226,24 @@
       "last_seen_at": "2026-05-18T20:48:25+08:00"
     },
     {
+      "user_name": "masreroyal",
+      "nick_name": "",
+      "developer_source": "external",
+      "top_comments": 1,
+      "replies": 0,
+      "discussion_count": 1,
+      "discussions": [
+        {
+          "url": "https://gitcode.com/cann/cann-ops-competitions/discussions/19",
+          "title": "🎒 寻找 CANN竞赛搭子｜送社区 T 恤（9/12 截止，10% 中奖率、限量 20 个）",
+          "top_comments": 1,
+          "replies": 0
+        }
+      ],
+      "first_seen_at": "2026-09-07T20:45:51+08:00",
+      "last_seen_at": "2026-09-07T20:45:51+08:00"
+    },
+    {
       "user_name": "Master_of_cv",
       "nick_name": "",
       "developer_source": "external",
@@ -11114,24 +11234,6 @@
       "last_seen_at": "2026-08-28T17:56:33+08:00"
     },
     {
-      "user_name": "qq_43754992",
-      "nick_name": "",
-      "developer_source": "external",
-      "top_comments": 1,
-      "replies": 0,
-      "discussion_count": 1,
-      "discussions": [
-        {
-          "url": "https://gitcode.com/cann/cann-ops-competitions/discussions/18",
-          "title": "# 观看CANN 挑战赛-直播提问有礼｜ CANN社区书包（活动截止，中奖公示中）",
-          "top_comments": 1,
-          "replies": 0
-        }
-      ],
-      "first_seen_at": "2026-08-27T17:30:07+08:00",
-      "last_seen_at": "2026-08-27T17:30:07+08:00"
-    },
-    {
       "user_name": "qq_50262364",
       "nick_name": "",
       "developer_source": "external",
@@ -11706,24 +11808,6 @@
       ],
       "first_seen_at": "2026-06-01T18:07:23+08:00",
       "last_seen_at": "2026-06-01T18:07:23+08:00"
-    },
-    {
-      "user_name": "RocRRR",
-      "nick_name": "",
-      "developer_source": "external",
-      "top_comments": 1,
-      "replies": 0,
-      "discussion_count": 1,
-      "discussions": [
-        {
-          "url": "https://gitcode.com/cann/cann-ops-competitions/discussions/15",
-          "title": "【进行中】🎁CANN挑战赛（西南赛区）第二轮报名有奖（9.4~9.20）| 总共三轮",
-          "top_comments": 1,
-          "replies": 0
-        }
-      ],
-      "first_seen_at": "2026-08-22T22:08:47+08:00",
-      "last_seen_at": "2026-08-22T22:08:47+08:00"
     },
     {
       "user_name": "rty56",
@@ -15668,6 +15752,24 @@
       "last_seen_at": "2026-05-27T20:38:37+08:00"
     },
     {
+      "user_name": "zxxheji",
+      "nick_name": "",
+      "developer_source": "external",
+      "top_comments": 1,
+      "replies": 0,
+      "discussion_count": 1,
+      "discussions": [
+        {
+          "url": "https://gitcode.com/cann/cann-ops-competitions/discussions/16",
+          "title": "🎒 CANN挑战赛叫你来领书包啦｜8.31前报名抽奖（活动截止、中奖公示中）",
+          "top_comments": 1,
+          "replies": 0
+        }
+      ],
+      "first_seen_at": "2026-08-25T11:47:16+08:00",
+      "last_seen_at": "2026-08-25T11:47:16+08:00"
+    },
+    {
       "user_name": "zxy852963",
       "nick_name": "",
       "developer_source": "external",
@@ -15746,10 +15848,10 @@
       "org": "cann/cann-ops-competitions",
       "number": "19",
       "title": "🎒 寻找 CANN竞赛搭子｜送社区 T 恤（9/12 截止，10% 中奖率、限量 20 个）",
-      "comment_total": 49,
+      "comment_total": 53,
       "reply_total": 1,
-      "unique_participants": 49,
-      "external_participants": 48
+      "unique_participants": 53,
+      "external_participants": 52
     },
     {
       "url": "https://gitcode.com/cann/cann-ops-competitions/discussions/18",
@@ -15786,10 +15888,10 @@
       "org": "cann/cann-ops-competitions",
       "number": "15",
       "title": "【进行中】🎁CANN挑战赛（西南赛区）第二轮报名有奖（9.4~9.20）| 总共三轮",
-      "comment_total": 188,
+      "comment_total": 192,
       "reply_total": 5,
-      "unique_participants": 188,
-      "external_participants": 188
+      "unique_participants": 191,
+      "external_participants": 191
     },
     {
       "url": "https://gitcode.com/cann/cann-ops-competitions/discussions/14",

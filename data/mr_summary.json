@@ -1,53 +1,53 @@
 {
   "repos": [
     {
-      "name": "torchair",
-      "path": "Ascend/torchair",
-      "merged": 2583,
-      "open": 51,
-      "total": 2634
-    },
-    {
       "name": "ge",
       "path": "cann/ge",
-      "merged": 2510,
+      "merged": 2527,
       "open": 115,
-      "total": 2625
+      "total": 2642
+    },
+    {
+      "name": "torchair",
+      "path": "Ascend/torchair",
+      "merged": 2589,
+      "open": 48,
+      "total": 2637
     },
     {
       "name": "graph-autofusion",
       "path": "cann/graph-autofusion",
-      "merged": 932,
-      "open": 88,
-      "total": 1020
+      "merged": 947,
+      "open": 85,
+      "total": 1032
     },
     {
       "name": "hixl",
       "path": "cann/hixl",
-      "merged": 797,
+      "merged": 800,
       "open": 33,
-      "total": 830
+      "total": 833
     },
     {
       "name": "torchtitan-npu",
       "path": "cann/torchtitan-npu",
-      "merged": 465,
-      "open": 77,
-      "total": 542
+      "merged": 470,
+      "open": 75,
+      "total": 545
     },
     {
       "name": "metadef",
       "path": "cann/metadef",
-      "merged": 324,
+      "merged": 326,
       "open": 8,
-      "total": 332
+      "total": 334
     },
     {
       "name": "tensorflow",
       "path": "cann/tensorflow",
-      "merged": 27,
-      "open": 10,
-      "total": 37
+      "merged": 29,
+      "open": 9,
+      "total": 38
     },
     {
       "name": "triton-inference-server-ge-backend",
@@ -57,6 +57,6 @@
       "total": 14
     }
   ],
-  "unique_authors": 870,
-  "generated_at": "2026-09-06"
+  "unique_authors": 872,
+  "generated_at": "2026-09-07"
 }

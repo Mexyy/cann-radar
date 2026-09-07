@@ -1,5 +1,88 @@
 [
   {
+    "user_name": "weixin_75182303",
+    "nick_name": "youqi",
+    "user_id": 5899750,
+    "avatar": "https://cdn-img.gitcode.com/ab/cf/05a01b41c9f69918c65110ce76a9d7b0f1835654de0559915656b4dd5fe0ae8d.png?time=1788338135650",
+    "starred_repos": [
+      "cann/ge",
+      "cann/hixl",
+      "cann/graph-autofusion",
+      "cann/torchtitan-npu",
+      "cann/metadef",
+      "cann/tensorflow",
+      "cann/triton-inference-server-ge-backend"
+    ]
+  },
+  {
+    "user_name": "dadage654",
+    "nick_name": "dadage654",
+    "user_id": 12546941,
+    "avatar": "https://cdn-img.gitcode.com/dc/dd/d6c63d1d03e72cf977d4efe54f0b959df008efe773e5eafb2f51062172860258.png?time=1788786450330",
+    "starred_repos": [
+      "cann/ge",
+      "cann/graph-autofusion",
+      "cann/torchtitan-npu",
+      "cann/tensorflow"
+    ]
+  },
+  {
+    "user_name": "gcw_WJCkAUuk",
+    "nick_name": "jiyg",
+    "user_id": 9698957,
+    "avatar": "https://cdn-img.gitcode.com/cc/fb/5377786cc77f6995b8bea61bc347dacfcfe64c76a7a31c7ac4e5894aaa0b9c95.png?time=1787706828644",
+    "starred_repos": [
+      "cann/ge",
+      "cann/hixl",
+      "cann/graph-autofusion",
+      "cann/torchtitan-npu",
+      "cann/metadef",
+      "cann/tensorflow",
+      "cann/triton-inference-server-ge-backend"
+    ]
+  },
+  {
+    "user_name": "roderickkong",
+    "nick_name": "roderick",
+    "user_id": 11347533,
+    "avatar": null,
+    "starred_repos": [
+      "cann/ge",
+      "cann/hixl",
+      "cann/graph-autofusion",
+      "cann/torchtitan-npu",
+      "cann/metadef",
+      "cann/tensorflow",
+      "cann/triton-inference-server-ge-backend"
+    ]
+  },
+  {
+    "user_name": "u011078141",
+    "nick_name": "opengood",
+    "user_id": 2842085,
+    "avatar": "https://cdn-img.gitcode.com/fe/bd/19619feb38df562fafa78a910e2053bfd66024c0aff9d80aaeed35505b895461.png?time=1787873998092",
+    "starred_repos": [
+      "cann/ge",
+      "cann/hixl",
+      "cann/graph-autofusion"
+    ]
+  },
+  {
+    "user_name": "ZTCNO0NE",
+    "nick_name": "ZTCNO0NE",
+    "user_id": 293404,
+    "avatar": "https://cdn-img.gitcode.com/aa/bc/9a5a23b00c8a3030e567457c46e0b22667aef58ff58a689bda4a93ce38be80b3.png",
+    "starred_repos": [
+      "cann/ge",
+      "cann/hixl",
+      "cann/graph-autofusion",
+      "cann/torchtitan-npu",
+      "cann/metadef",
+      "cann/tensorflow",
+      "cann/triton-inference-server-ge-backend"
+    ]
+  },
+  {
     "user_name": "z3336",
     "nick_name": "z3336",
     "user_id": 12376229,
@@ -8025,7 +8108,7 @@
     ]
   },
   {
-    "user_name": "gcw_YbzCc3Pl",
+    "user_name": "SunShijun",
     "nick_name": "SunShijun",
     "user_id": 10451881,
     "avatar": "https://cdn-img.gitcode.com/be/fe/6bef5e7d0eb98a9682fadf1292e975457f8115c4e818526952d6e6f64eb327e4.png?time=1788693768671",
@@ -12174,6 +12257,15 @@
     ]
   },
   {
+    "user_name": "jwcjtnllm",
+    "nick_name": "jwcjtnllm",
+    "user_id": 5407408,
+    "avatar": "https://cdn-img.gitcode.com/ef/bd/84efb2dcc9ca278d61ff77d27b553b505a77afeea43e54060281c13d38d3cb76.png",
+    "starred_repos": [
+      "cann/graph-autofusion"
+    ]
+  },
+  {
     "user_name": "gcw_PiNDQpP1",
     "nick_name": "qq_08",
     "user_id": 5736879,
@@ -13550,6 +13642,15 @@
     "avatar": "https://cdn-img.gitcode.com/da/cc/5d0a0c9c1fca5243d1ba0dc98041d00c95be5c1d74769ff86ec6f62ffd050cce.png",
     "starred_repos": [
       "cann/graph-autofusion"
+    ]
+  },
+  {
+    "user_name": "L_kx",
+    "nick_name": "L_kx",
+    "user_id": 11152937,
+    "avatar": null,
+    "starred_repos": [
+      "cann/torchtitan-npu"
     ]
   },
   {
@@ -15994,15 +16095,6 @@
     ]
   },
   {
-    "user_name": "gcw_WJCkAUuk",
-    "nick_name": "jiyg",
-    "user_id": 9698957,
-    "avatar": "https://cdn-img.gitcode.com/cc/fb/5377786cc77f6995b8bea61bc347dacfcfe64c76a7a31c7ac4e5894aaa0b9c95.png?time=1787706828644",
-    "starred_repos": [
-      "cann/tensorflow"
-    ]
-  },
-  {
     "user_name": "gcw_VHEfY7e7",
     "nick_name": "gcw_VHEfY7e7",
     "user_id": 11383089,
@@ -16045,6 +16137,15 @@
     "avatar": "https://cdn-img.gitcode.com/fe/ea/fe93e540860a09f4b5bfcce943aec54037c5537a13ddb5c1e71fb2ce700a2a4c.png",
     "starred_repos": [
       "cann/tensorflow"
+    ]
+  },
+  {
+    "user_name": "mulong933",
+    "nick_name": "mulong933",
+    "user_id": 12546884,
+    "avatar": null,
+    "starred_repos": [
+      "Ascend/torchair"
     ]
   },
   {
