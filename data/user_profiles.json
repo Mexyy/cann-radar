@@ -31595,5 +31595,102 @@
     "total_repo_count": 0,
     "total_contributions": 1,
     "user_type": "developer"
+  },
+  {
+    "user_name": "leyuan111",
+    "nick_name": "Ö",
+    "user_id": 12460652,
+    "starred_repos": [
+      "cann/ge",
+      "cann/hixl",
+      "cann/graph-autofusion",
+      "cann/torchtitan-npu",
+      "cann/metadef",
+      "cann/tensorflow",
+      "cann/triton-inference-server-ge-backend"
+    ],
+    "fans_count": 1,
+    "follow_count": 1,
+    "original_repo_count": 0,
+    "total_repo_count": 0,
+    "total_contributions": 8,
+    "user_type": "developer"
+  },
+  {
+    "user_name": "gcw_iYYsmKkl",
+    "nick_name": "raychel",
+    "user_id": 12561248,
+    "starred_repos": [
+      "Ascend/torchair"
+    ],
+    "fans_count": 0,
+    "follow_count": 0,
+    "original_repo_count": 0,
+    "total_repo_count": 0,
+    "total_contributions": 0,
+    "user_type": "die_hard_fan"
+  },
+  {
+    "user_name": "gem_111",
+    "nick_name": "天空没有极限",
+    "user_id": 11223630,
+    "starred_repos": [
+      "cann/ge",
+      "cann/metadef"
+    ],
+    "fans_count": 0,
+    "follow_count": 1,
+    "original_repo_count": 0,
+    "total_repo_count": 0,
+    "total_contributions": 1,
+    "user_type": "developer"
+  },
+  {
+    "user_name": "weixin_73161469",
+    "nick_name": "豆豆943",
+    "user_id": 12085073,
+    "starred_repos": [
+      "cann/ge",
+      "cann/hixl",
+      "cann/graph-autofusion",
+      "cann/torchtitan-npu",
+      "cann/metadef",
+      "cann/tensorflow",
+      "cann/triton-inference-server-ge-backend"
+    ],
+    "fans_count": 0,
+    "follow_count": 3,
+    "original_repo_count": 0,
+    "total_repo_count": 1,
+    "total_contributions": 58,
+    "user_type": "developer"
+  },
+  {
+    "user_name": "gcw_GztlOFbG",
+    "nick_name": "gcw_GztlOFbG",
+    "user_id": 5919535,
+    "starred_repos": [
+      "cann/torchtitan-npu"
+    ],
+    "fans_count": 0,
+    "follow_count": 0,
+    "original_repo_count": 0,
+    "total_repo_count": 1,
+    "total_contributions": 4,
+    "user_type": "contributor"
+  },
+  {
+    "user_name": "DonaldTom",
+    "nick_name": "DonaldTom",
+    "user_id": 428561,
+    "starred_repos": [
+      "cann/triton-inference-server-ge-backend"
+    ],
+    "fans_count": 0,
+    "follow_count": 12,
+    "original_repo_count": 1,
+    "total_repo_count": 4,
+    "total_contributions": 174,
+    "user_type": "developer"
   }
 ]

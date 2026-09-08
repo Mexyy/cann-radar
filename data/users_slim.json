@@ -1,5 +1,67 @@
 [
   {
+    "user_name": "andong_hw",
+    "nick_name": "andong_hw",
+    "starred_repos": [
+      "cann/ge",
+      "Ascend/torchair"
+    ],
+    "user_type": "contributor",
+    "fans_count": 0,
+    "original_repo_count": 1,
+    "total_contributions": 1687,
+    "developer_source": "internal"
+  },
+  {
+    "user_name": "leyuan111",
+    "nick_name": "Ö",
+    "starred_repos": [
+      "cann/ge",
+      "cann/hixl",
+      "cann/graph-autofusion",
+      "cann/torchtitan-npu",
+      "cann/metadef",
+      "cann/tensorflow",
+      "cann/triton-inference-server-ge-backend"
+    ],
+    "user_type": "developer",
+    "fans_count": 1,
+    "original_repo_count": 0,
+    "total_contributions": 8,
+    "developer_source": "external"
+  },
+  {
+    "user_name": "weixin_73161469",
+    "nick_name": "豆豆943",
+    "starred_repos": [
+      "cann/ge",
+      "cann/hixl",
+      "cann/graph-autofusion",
+      "cann/torchtitan-npu",
+      "cann/metadef",
+      "cann/tensorflow",
+      "cann/triton-inference-server-ge-backend"
+    ],
+    "user_type": "developer",
+    "fans_count": 0,
+    "original_repo_count": 0,
+    "total_contributions": 58,
+    "developer_source": "external"
+  },
+  {
+    "user_name": "gem_111",
+    "nick_name": "天空没有极限",
+    "starred_repos": [
+      "cann/ge",
+      "cann/metadef"
+    ],
+    "user_type": "developer",
+    "fans_count": 0,
+    "original_repo_count": 0,
+    "total_contributions": 1,
+    "developer_source": "external"
+  },
+  {
     "user_name": "weixin_75182303",
     "nick_name": "youqi",
     "starred_repos": [
@@ -24,6 +86,7 @@
       "cann/ge",
       "cann/graph-autofusion",
       "cann/torchtitan-npu",
+      "cann/metadef",
       "cann/tensorflow"
     ],
     "user_type": "star_enthusiast",
@@ -105,7 +168,9 @@
     "nick_name": "z3336",
     "starred_repos": [
       "cann/ge",
-      "cann/hixl"
+      "cann/hixl",
+      "cann/graph-autofusion",
+      "cann/torchtitan-npu"
     ],
     "user_type": "developer",
     "fans_count": 0,
@@ -148,7 +213,11 @@
     "starred_repos": [
       "cann/ge",
       "cann/hixl",
-      "cann/graph-autofusion"
+      "cann/graph-autofusion",
+      "cann/torchtitan-npu",
+      "cann/metadef",
+      "cann/tensorflow",
+      "cann/triton-inference-server-ge-backend"
     ],
     "user_type": "developer",
     "fans_count": 0,
@@ -17479,6 +17548,18 @@
     "developer_source": "internal"
   },
   {
+    "user_name": "gcw_GztlOFbG",
+    "nick_name": "gcw_GztlOFbG",
+    "starred_repos": [
+      "cann/torchtitan-npu"
+    ],
+    "user_type": "contributor",
+    "fans_count": 0,
+    "original_repo_count": 0,
+    "total_contributions": 4,
+    "developer_source": "external"
+  },
+  {
     "user_name": "L_kx",
     "nick_name": "L_kx",
     "starred_repos": [
@@ -20775,6 +20856,18 @@
     "developer_source": "internal"
   },
   {
+    "user_name": "gcw_iYYsmKkl",
+    "nick_name": "raychel",
+    "starred_repos": [
+      "Ascend/torchair"
+    ],
+    "user_type": "die_hard_fan",
+    "fans_count": 0,
+    "original_repo_count": 0,
+    "total_contributions": 0,
+    "developer_source": "external"
+  },
+  {
     "user_name": "mulong933",
     "nick_name": "mulong933",
     "starred_repos": [
@@ -20821,18 +20914,6 @@
     "original_repo_count": 0,
     "total_contributions": 0,
     "developer_source": "external"
-  },
-  {
-    "user_name": "andong_hw",
-    "nick_name": "andong_hw",
-    "starred_repos": [
-      "Ascend/torchair"
-    ],
-    "user_type": "contributor",
-    "fans_count": 0,
-    "original_repo_count": 1,
-    "total_contributions": 1687,
-    "developer_source": "internal"
   },
   {
     "user_name": "weixin_53004531",
@@ -27304,6 +27385,18 @@
     "original_repo_count": 1,
     "total_contributions": 974,
     "developer_source": "internal"
+  },
+  {
+    "user_name": "DonaldTom",
+    "nick_name": "DonaldTom",
+    "starred_repos": [
+      "cann/triton-inference-server-ge-backend"
+    ],
+    "user_type": "developer",
+    "fans_count": 0,
+    "original_repo_count": 1,
+    "total_contributions": 174,
+    "developer_source": "external"
   },
   {
     "user_name": "guanmingde",

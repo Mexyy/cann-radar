@@ -1,5 +1,37 @@
 [
   {
+    "iid": "69",
+    "state": "opened",
+    "created_at": "2026-09-08",
+    "closed_at": "",
+    "author": "Genshin-moyu",
+    "author_id": "655c5142bc72d44000c4518b",
+    "title": "PR #1426 已签署CLA但检查不通过（cann-cla/no，FAQ B2）",
+    "labels": [],
+    "issue_type": "任务",
+    "issue_state": "进行中",
+    "assignees": [],
+    "user_notes_count": 1,
+    "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/69",
+    "working_days_open": 1
+  },
+  {
+    "iid": "68",
+    "state": "opened",
+    "created_at": "2026-09-08",
+    "closed_at": "",
+    "author": "likece",
+    "author_id": "6556dc8dbc72d44000c43049",
+    "title": "[Question|问题咨询]: QuantMatmulReluQuant 同源码15/15与2/15差异及运行环境咨询",
+    "labels": [],
+    "issue_type": "任务",
+    "issue_state": "进行中",
+    "assignees": [],
+    "user_notes_count": 0,
+    "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/68",
+    "working_days_open": 1
+  },
+  {
     "iid": "67",
     "state": "opened",
     "created_at": "2026-09-07",
@@ -11,9 +43,9 @@
     "issue_type": "任务",
     "issue_state": "进行中",
     "assignees": [],
-    "user_notes_count": 1,
+    "user_notes_count": 47,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/67",
-    "working_days_open": 1
+    "working_days_open": 2
   },
   {
     "iid": "66",
@@ -29,7 +61,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/66",
-    "working_days_open": 1
+    "working_days_open": 2
   },
   {
     "iid": "65",
@@ -45,7 +77,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/65",
-    "working_days_open": 1
+    "working_days_open": 2
   },
   {
     "iid": "64",
@@ -61,7 +93,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/64",
-    "working_days_open": 1
+    "working_days_open": 2
   },
   {
     "iid": "63",
@@ -77,7 +109,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/63",
-    "working_days_open": 1
+    "working_days_open": 2
   },
   {
     "iid": "62",
@@ -93,7 +125,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/62",
-    "working_days_open": 1
+    "working_days_open": 2
   },
   {
     "iid": "61",
@@ -109,7 +141,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/61",
-    "working_days_open": 1
+    "working_days_open": 2
   },
   {
     "iid": "60",
@@ -127,7 +159,7 @@
     ],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/60",
-    "working_days_open": 1
+    "working_days_open": 2
   },
   {
     "iid": "59",
@@ -143,7 +175,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/59",
-    "working_days_open": 1
+    "working_days_open": 2
   },
   {
     "iid": "58",
@@ -159,7 +191,7 @@
     "assignees": [],
     "user_notes_count": 1,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/58",
-    "working_days_open": 3
+    "working_days_open": 4
   },
   {
     "iid": "57",
@@ -175,7 +207,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/57",
-    "working_days_open": 3
+    "working_days_open": 4
   },
   {
     "iid": "56",
@@ -191,7 +223,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/56",
-    "working_days_open": 5
+    "working_days_open": 6
   },
   {
     "iid": "55",
@@ -207,7 +239,7 @@
     "assignees": [],
     "user_notes_count": 3,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/55",
-    "working_days_open": 5
+    "working_days_open": 6
   },
   {
     "iid": "54",
@@ -223,7 +255,7 @@
     "assignees": [],
     "user_notes_count": 1,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/54",
-    "working_days_open": 5
+    "working_days_open": 6
   },
   {
     "iid": "53",
@@ -239,7 +271,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/53",
-    "working_days_open": 6
+    "working_days_open": 7
   },
   {
     "iid": "52",
@@ -255,7 +287,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/52",
-    "working_days_open": 6
+    "working_days_open": 7
   },
   {
     "iid": "51",
@@ -271,7 +303,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/51",
-    "working_days_open": 6
+    "working_days_open": 7
   },
   {
     "iid": "50",
@@ -287,7 +319,7 @@
     "assignees": [],
     "user_notes_count": 1,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/50",
-    "working_days_open": 6
+    "working_days_open": 7
   },
   {
     "iid": "48",
@@ -303,7 +335,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/48",
-    "working_days_open": 6
+    "working_days_open": 7
   },
   {
     "iid": "46",
@@ -319,7 +351,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/46",
-    "working_days_open": 11
+    "working_days_open": 12
   },
   {
     "iid": "45",
@@ -335,7 +367,7 @@
     "assignees": [],
     "user_notes_count": 2,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/45",
-    "working_days_open": 11
+    "working_days_open": 12
   },
   {
     "iid": "44",
@@ -351,13 +383,13 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/44",
-    "working_days_open": 11
+    "working_days_open": 12
   },
   {
     "iid": "43",
-    "state": "opened",
+    "state": "closed",
     "created_at": "2026-08-24",
-    "closed_at": "",
+    "closed_at": "2026-09-08",
     "author": "2403_87936996",
     "author_id": "67e7c197ef39c4561abc1cdb",
     "title": "[Bug-Report]: Markdown 相对链接失效 208 处（.clang-format 未入库、任务文档死链等）",
@@ -365,9 +397,9 @@
     "issue_type": "任务",
     "issue_state": "进行中",
     "assignees": [],
-    "user_notes_count": 2,
+    "user_notes_count": 3,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/43",
-    "working_days_open": 11
+    "working_days_open": 12
   },
   {
     "iid": "42",
@@ -383,7 +415,7 @@
     "assignees": [],
     "user_notes_count": 2,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/42",
-    "working_days_open": 13
+    "working_days_open": 14
   },
   {
     "iid": "41",
@@ -399,7 +431,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/41",
-    "working_days_open": 15
+    "working_days_open": 16
   },
   {
     "iid": "40",
@@ -415,7 +447,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/40",
-    "working_days_open": 15
+    "working_days_open": 16
   },
   {
     "iid": "39",
@@ -431,7 +463,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/39",
-    "working_days_open": 15
+    "working_days_open": 16
   },
   {
     "iid": "37",
@@ -445,9 +477,9 @@
     "issue_type": "任务",
     "issue_state": "进行中",
     "assignees": [],
-    "user_notes_count": 6,
+    "user_notes_count": 8,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/37",
-    "working_days_open": 16
+    "working_days_open": 17
   },
   {
     "iid": "36",
@@ -465,7 +497,7 @@
     ],
     "user_notes_count": 22,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/36",
-    "working_days_open": 16
+    "working_days_open": 17
   },
   {
     "iid": "35",
@@ -479,9 +511,9 @@
     "issue_type": "文档",
     "issue_state": "进行中",
     "assignees": [],
-    "user_notes_count": 75,
+    "user_notes_count": 77,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/35",
-    "working_days_open": 16
+    "working_days_open": 17
   },
   {
     "iid": "34",
@@ -499,7 +531,7 @@
     ],
     "user_notes_count": 1,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/34",
-    "working_days_open": 19
+    "working_days_open": 20
   },
   {
     "iid": "33",
@@ -515,7 +547,7 @@
     "assignees": [],
     "user_notes_count": 3,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/33",
-    "working_days_open": 20
+    "working_days_open": 21
   },
   {
     "iid": "32",
@@ -531,7 +563,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/32",
-    "working_days_open": 21
+    "working_days_open": 22
   },
   {
     "iid": "31",
@@ -547,7 +579,7 @@
     "assignees": [],
     "user_notes_count": 8,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/31",
-    "working_days_open": 22
+    "working_days_open": 23
   },
   {
     "iid": "30",
@@ -563,7 +595,7 @@
     "assignees": [],
     "user_notes_count": 1,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/30",
-    "working_days_open": 24
+    "working_days_open": 25
   },
   {
     "iid": "29",
@@ -579,7 +611,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/29",
-    "working_days_open": 24
+    "working_days_open": 25
   },
   {
     "iid": "28",
@@ -593,9 +625,9 @@
     "issue_type": "任务",
     "issue_state": "进行中",
     "assignees": [],
-    "user_notes_count": 69,
+    "user_notes_count": 71,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/28",
-    "working_days_open": 27
+    "working_days_open": 28
   },
   {
     "iid": "27",
@@ -611,7 +643,7 @@
     "assignees": [],
     "user_notes_count": 1,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/27",
-    "working_days_open": 27
+    "working_days_open": 28
   },
   {
     "iid": "25",
@@ -627,7 +659,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/25",
-    "working_days_open": 28
+    "working_days_open": 29
   },
   {
     "iid": "24",
@@ -643,7 +675,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/24",
-    "working_days_open": 29
+    "working_days_open": 30
   },
   {
     "iid": "22",
@@ -659,7 +691,7 @@
     "assignees": [],
     "user_notes_count": 0,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/22",
-    "working_days_open": 33
+    "working_days_open": 34
   },
   {
     "iid": "21",
@@ -677,7 +709,7 @@
     ],
     "user_notes_count": 1,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/21",
-    "working_days_open": 39
+    "working_days_open": 40
   },
   {
     "iid": "20",
@@ -693,7 +725,7 @@
     "assignees": [],
     "user_notes_count": 1,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/20",
-    "working_days_open": 46
+    "working_days_open": 47
   },
   {
     "iid": "19",
@@ -711,7 +743,7 @@
     "assignees": [],
     "user_notes_count": 3,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/19",
-    "working_days_open": 48
+    "working_days_open": 49
   },
   {
     "iid": "18",
@@ -727,7 +759,7 @@
     "assignees": [],
     "user_notes_count": 21,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/18",
-    "working_days_open": 50
+    "working_days_open": 51
   },
   {
     "iid": "17",
@@ -747,7 +779,7 @@
     ],
     "user_notes_count": 4,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/17",
-    "working_days_open": 53
+    "working_days_open": 54
   },
   {
     "iid": "16",
@@ -767,7 +799,7 @@
     ],
     "user_notes_count": 5,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/16",
-    "working_days_open": 55
+    "working_days_open": 56
   },
   {
     "iid": "14",
@@ -785,7 +817,7 @@
     ],
     "user_notes_count": 1,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/14",
-    "working_days_open": 64
+    "working_days_open": 65
   },
   {
     "iid": "12",
@@ -803,7 +835,7 @@
     "assignees": [],
     "user_notes_count": 1,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/12",
-    "working_days_open": 66
+    "working_days_open": 67
   },
   {
     "iid": "11",
@@ -819,7 +851,7 @@
     "assignees": [],
     "user_notes_count": 3,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/11",
-    "working_days_open": 68
+    "working_days_open": 69
   },
   {
     "iid": "10",
@@ -835,7 +867,7 @@
     "assignees": [],
     "user_notes_count": 2,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/10",
-    "working_days_open": 70
+    "working_days_open": 71
   },
   {
     "iid": "9",
@@ -851,7 +883,7 @@
     "assignees": [],
     "user_notes_count": 2,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/9",
-    "working_days_open": 73
+    "working_days_open": 74
   },
   {
     "iid": "8",
@@ -871,7 +903,7 @@
     ],
     "user_notes_count": 1,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/8",
-    "working_days_open": 74
+    "working_days_open": 75
   },
   {
     "iid": "6",
@@ -887,7 +919,7 @@
     "assignees": [],
     "user_notes_count": 4,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/6",
-    "working_days_open": 80
+    "working_days_open": 81
   },
   {
     "iid": "5",
@@ -903,7 +935,7 @@
     "assignees": [],
     "user_notes_count": 1,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/5",
-    "working_days_open": 85
+    "working_days_open": 86
   },
   {
     "iid": "4",
@@ -923,7 +955,7 @@
     ],
     "user_notes_count": 1,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/4",
-    "working_days_open": 85
+    "working_days_open": 86
   },
   {
     "iid": "3",
@@ -944,7 +976,7 @@
     ],
     "user_notes_count": 2,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/3",
-    "working_days_open": 89
+    "working_days_open": 90
   },
   {
     "iid": "2",
@@ -962,7 +994,7 @@
     ],
     "user_notes_count": 1,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/2",
-    "working_days_open": 89
+    "working_days_open": 90
   },
   {
     "iid": "1",
@@ -982,6 +1014,6 @@
     ],
     "user_notes_count": 1,
     "web_url": "https://gitcode.com/cann/cann-ops-competitions/issues/1",
-    "working_days_open": 90
+    "working_days_open": 91
   }
 ]

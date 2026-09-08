@@ -1,5 +1,16 @@
 [
   {
+    "id": 10763408,
+    "namespace": "Young2026_/graph-autofusion",
+    "name": "graph-autofusion",
+    "web_url": "https://gitcode.com/Young2026_/graph-autofusion",
+    "http_url_to_repo": "https://gitcode.com/Young2026_/graph-autofusion.git",
+    "created_at": "2026-09-08T10:38:11.173+08:00",
+    "creator_username": "Young2026_",
+    "creator_nick_name": "Young",
+    "forked_from": "cann/graph-autofusion"
+  },
+  {
     "id": 10757241,
     "namespace": "hitLeechi/graph-autofusion_fix_bugs",
     "name": "graph-autofusion_fix_bugs",
